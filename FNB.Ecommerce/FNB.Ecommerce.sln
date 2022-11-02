@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNB.Ecommerce.Transversal.Common", "FNB.Ecommerce.Transversal.Common\FNB.Ecommerce.Transversal.Common.csproj", "{807EEA17-80D1-4590-AA4B-609FEBFE6102}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aplicacion", "Aplicacion", "{F4B6B2BA-E7FB-4D6D-BD59-0797C3FEBFDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{CA21208B-CFAA-46D0-B8A8-2753A8CA0056}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructura", "Infraestructura", "{8AD80536-55F2-4BCE-9B02-D3D00D3E8C3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servicio", "Servicio", "{429D051C-9325-4625-94D7-61E665005FB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transversal", "Transversal", "{50610B6E-4794-4DB9-A969-8A4C3ED80132}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{807EEA17-80D1-4590-AA4B-609FEBFE6102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{807EEA17-80D1-4590-AA4B-609FEBFE6102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{807EEA17-80D1-4590-AA4B-609FEBFE6102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{807EEA17-80D1-4590-AA4B-609FEBFE6102}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B696F64C-095B-424C-9AC6-9569236A3F7A}
+	EndGlobalSection
+EndGlobal
