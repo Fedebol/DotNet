@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNB.Ecommerce.Transversal.Common", "FNB.Ecommerce.Transversal.Common\FNB.Ecommerce.Transversal.Common.csproj", "{807EEA17-80D1-4590-AA4B-609FEBFE6102}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FNB.Ecommerce.Transversal.Common", "FNB.Ecommerce.Transversal.Common\FNB.Ecommerce.Transversal.Common.csproj", "{807EEA17-80D1-4590-AA4B-609FEBFE6102}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aplicacion", "Aplicacion", "{F4B6B2BA-E7FB-4D6D-BD59-0797C3FEBFDF}"
 EndProject
@@ -15,13 +15,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servicio", "Servicio", "{42
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transversal", "Transversal", "{50610B6E-4794-4DB9-A969-8A4C3ED80132}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNB.Ecommerce.Infrastructure.Data", "FNB.Ecommerce.Infraestructura.Data\FNB.Ecommerce.Infrastructure.Data.csproj", "{8A836488-4E41-48EE-ABC0-5FD692046BD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FNB.Ecommerce.Infrastructure.Data", "FNB.Ecommerce.Infraestructura.Data\FNB.Ecommerce.Infrastructure.Data.csproj", "{8A836488-4E41-48EE-ABC0-5FD692046BD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNB.Ecommerce.Infrastructure.Interface", "FNB.Ecommerce.Infraestructure.Interface\FNB.Ecommerce.Infrastructure.Interface.csproj", "{6035BACB-2146-4507-B699-37FA8848CFC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FNB.Ecommerce.Infrastructure.Interface", "FNB.Ecommerce.Infraestructure.Interface\FNB.Ecommerce.Infrastructure.Interface.csproj", "{6035BACB-2146-4507-B699-37FA8848CFC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNB.Ecommerce.Domain.Entity", "FNB.Ecommerce.Domain.Entity\FNB.Ecommerce.Domain.Entity.csproj", "{9A942C37-474E-4556-9CC3-28A6E9C090ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FNB.Ecommerce.Domain.Entity", "FNB.Ecommerce.Domain.Entity\FNB.Ecommerce.Domain.Entity.csproj", "{9A942C37-474E-4556-9CC3-28A6E9C090ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNB.Ecommerce.Infrastruture.Repository", "FNB.Ecommerce.Infrastruture.Repository\FNB.Ecommerce.Infrastruture.Repository.csproj", "{3424A591-8E98-45A1-B5E1-8BA7BA5948EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FNB.Ecommerce.Infrastruture.Repository", "FNB.Ecommerce.Infrastruture.Repository\FNB.Ecommerce.Infrastruture.Repository.csproj", "{3424A591-8E98-45A1-B5E1-8BA7BA5948EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNB.Ecommerce.Domain.Interface", "FNB.Ecommerce.Domain.Interface\FNB.Ecommerce.Domain.Interface.csproj", "{32AF79C1-6AA1-4A66-AF19-DA5D7840C98A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNB.Ecommerce.Domain.Core", "FNB.Ecommerce.Domain.Core\FNB.Ecommerce.Domain.Core.csproj", "{9C015CF9-150D-4DFB-9913-DE04378A777E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +53,14 @@ Global
 		{3424A591-8E98-45A1-B5E1-8BA7BA5948EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3424A591-8E98-45A1-B5E1-8BA7BA5948EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3424A591-8E98-45A1-B5E1-8BA7BA5948EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32AF79C1-6AA1-4A66-AF19-DA5D7840C98A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32AF79C1-6AA1-4A66-AF19-DA5D7840C98A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32AF79C1-6AA1-4A66-AF19-DA5D7840C98A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32AF79C1-6AA1-4A66-AF19-DA5D7840C98A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C015CF9-150D-4DFB-9913-DE04378A777E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C015CF9-150D-4DFB-9913-DE04378A777E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C015CF9-150D-4DFB-9913-DE04378A777E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C015CF9-150D-4DFB-9913-DE04378A777E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +71,8 @@ Global
 		{6035BACB-2146-4507-B699-37FA8848CFC5} = {8AD80536-55F2-4BCE-9B02-D3D00D3E8C3B}
 		{9A942C37-474E-4556-9CC3-28A6E9C090ED} = {CA21208B-CFAA-46D0-B8A8-2753A8CA0056}
 		{3424A591-8E98-45A1-B5E1-8BA7BA5948EC} = {8AD80536-55F2-4BCE-9B02-D3D00D3E8C3B}
+		{32AF79C1-6AA1-4A66-AF19-DA5D7840C98A} = {CA21208B-CFAA-46D0-B8A8-2753A8CA0056}
+		{9C015CF9-150D-4DFB-9913-DE04378A777E} = {CA21208B-CFAA-46D0-B8A8-2753A8CA0056}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B696F64C-095B-424C-9AC6-9569236A3F7A}
