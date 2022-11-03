@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FNB.Ecommerce.Applicatio.Interface\FNB.Ecommerce.Application.Interface.csproj" />
+    <ProjectReference Include="..\FNB.Ecommerce.Application.DTO\FNB.Ecommerce.Application.DTO.csproj" />
+    <ProjectReference Include="..\FNB.Ecommerce.Domain.Entity\FNB.Ecommerce.Domain.Entity.csproj" />
+    <ProjectReference Include="..\FNB.Ecommerce.Domain.Interface\FNB.Ecommerce.Domain.Interface.csproj" />
+    <ProjectReference Include="..\FNB.Ecommerce.Transversal.Common\FNB.Ecommerce.Transversal.Common.csproj" />
+  </ItemGroup>
+
+</Project>

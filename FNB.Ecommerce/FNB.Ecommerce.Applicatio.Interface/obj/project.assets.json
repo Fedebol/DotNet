@@ -1,0 +1,116 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "FNB.Ecommerce.Application.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/FNB.Ecommerce.Application.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FNB.Ecommerce.Application.DTO.dll": {}
+        }
+      },
+      "FNB.Ecommerce.Transversal.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/FNB.Ecommerce.Transversal.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FNB.Ecommerce.Transversal.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FNB.Ecommerce.Application.DTO/1.0.0": {
+      "type": "project",
+      "path": "../FNB.Ecommerce.Application.DTO/FNB.Ecommerce.Application.DTO.csproj",
+      "msbuildProject": "../FNB.Ecommerce.Application.DTO/FNB.Ecommerce.Application.DTO.csproj"
+    },
+    "FNB.Ecommerce.Transversal.Common/1.0.0": {
+      "type": "project",
+      "path": "../FNB.Ecommerce.Transversal.Common/FNB.Ecommerce.Transversal.Common.csproj",
+      "msbuildProject": "../FNB.Ecommerce.Transversal.Common/FNB.Ecommerce.Transversal.Common.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "FNB.Ecommerce.Application.DTO >= 1.0.0",
+      "FNB.Ecommerce.Transversal.Common >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Fede\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Applicatio.Interface\\FNB.Ecommerce.Application.Interface.csproj",
+      "projectName": "FNB.Ecommerce.Application.Interface",
+      "projectPath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Applicatio.Interface\\FNB.Ecommerce.Application.Interface.csproj",
+      "packagesPath": "C:\\Users\\Fede\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Applicatio.Interface\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Fede\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Application.DTO\\FNB.Ecommerce.Application.DTO.csproj": {
+              "projectPath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Application.DTO\\FNB.Ecommerce.Application.DTO.csproj"
+            },
+            "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Transversal.Common\\FNB.Ecommerce.Transversal.Common.csproj": {
+              "projectPath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Transversal.Common\\FNB.Ecommerce.Transversal.Common.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

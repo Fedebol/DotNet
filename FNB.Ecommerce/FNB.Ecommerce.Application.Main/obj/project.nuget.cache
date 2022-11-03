@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "XcO5C+ti9uRJgRLDNkmiDr3Ifdq6eN5Kxb5f3AT3kEX0ztx0DycUgEwV/JRgElCGQlFUVZORWIwRO6xjG74SVQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Application.Main\\FNB.Ecommerce.Application.Main.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Fede\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\Fede\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
