@@ -23,17 +23,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FNB.Ecommerce.Domain.Entity
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FNB.Ecommerce.Infrastruture.Repository", "FNB.Ecommerce.Infrastruture.Repository\FNB.Ecommerce.Infrastruture.Repository.csproj", "{3424A591-8E98-45A1-B5E1-8BA7BA5948EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNB.Ecommerce.Domain.Interface", "FNB.Ecommerce.Domain.Interface\FNB.Ecommerce.Domain.Interface.csproj", "{32AF79C1-6AA1-4A66-AF19-DA5D7840C98A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FNB.Ecommerce.Domain.Interface", "FNB.Ecommerce.Domain.Interface\FNB.Ecommerce.Domain.Interface.csproj", "{32AF79C1-6AA1-4A66-AF19-DA5D7840C98A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNB.Ecommerce.Domain.Core", "FNB.Ecommerce.Domain.Core\FNB.Ecommerce.Domain.Core.csproj", "{9C015CF9-150D-4DFB-9913-DE04378A777E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FNB.Ecommerce.Domain.Core", "FNB.Ecommerce.Domain.Core\FNB.Ecommerce.Domain.Core.csproj", "{9C015CF9-150D-4DFB-9913-DE04378A777E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNB.Ecommerce.Application.DTO", "FNB.Ecommerce.Application.DTO\FNB.Ecommerce.Application.DTO.csproj", "{6EB8AC2C-67A1-42AB-94C3-8486E09DFA31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FNB.Ecommerce.Application.DTO", "FNB.Ecommerce.Application.DTO\FNB.Ecommerce.Application.DTO.csproj", "{6EB8AC2C-67A1-42AB-94C3-8486E09DFA31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNB.Ecommerce.Transvredal.Mapper", "FNB.Ecommerce.Transvredal.Mapper\FNB.Ecommerce.Transvredal.Mapper.csproj", "{1D168ADE-AFD0-42C9-9581-71DC5965D336}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FNB.Ecommerce.Transversal.Mapper", "FNB.Ecommerce.Transvredal.Mapper\FNB.Ecommerce.Transversal.Mapper.csproj", "{1D168ADE-AFD0-42C9-9581-71DC5965D336}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNB.Ecommerce.Application.Interface", "FNB.Ecommerce.Applicatio.Interface\FNB.Ecommerce.Application.Interface.csproj", "{04FE77F9-7735-421C-8C3E-40CCF31E808E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FNB.Ecommerce.Application.Interface", "FNB.Ecommerce.Applicatio.Interface\FNB.Ecommerce.Application.Interface.csproj", "{04FE77F9-7735-421C-8C3E-40CCF31E808E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNB.Ecommerce.Application.Main", "FNB.Ecommerce.Application.Main\FNB.Ecommerce.Application.Main.csproj", "{E7B615AD-D8A5-465B-B089-7B0769EA27D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FNB.Ecommerce.Application.Main", "FNB.Ecommerce.Application.Main\FNB.Ecommerce.Application.Main.csproj", "{E7B615AD-D8A5-465B-B089-7B0769EA27D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNB.Ecommerce.Service.WebApi", "FNB.Ecommerce.Service.WebApi\FNB.Ecommerce.Service.WebApi.csproj", "{DA88A585-ABA7-46CB-8772-0B56E91CA240}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,6 +87,10 @@ Global
 		{E7B615AD-D8A5-465B-B089-7B0769EA27D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7B615AD-D8A5-465B-B089-7B0769EA27D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7B615AD-D8A5-465B-B089-7B0769EA27D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA88A585-ABA7-46CB-8772-0B56E91CA240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA88A585-ABA7-46CB-8772-0B56E91CA240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA88A585-ABA7-46CB-8772-0B56E91CA240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA88A585-ABA7-46CB-8772-0B56E91CA240}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -101,6 +107,7 @@ Global
 		{1D168ADE-AFD0-42C9-9581-71DC5965D336} = {50610B6E-4794-4DB9-A969-8A4C3ED80132}
 		{04FE77F9-7735-421C-8C3E-40CCF31E808E} = {F4B6B2BA-E7FB-4D6D-BD59-0797C3FEBFDF}
 		{E7B615AD-D8A5-465B-B089-7B0769EA27D5} = {F4B6B2BA-E7FB-4D6D-BD59-0797C3FEBFDF}
+		{DA88A585-ABA7-46CB-8772-0B56E91CA240} = {429D051C-9325-4625-94D7-61E665005FB2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B696F64C-095B-424C-9AC6-9569236A3F7A}

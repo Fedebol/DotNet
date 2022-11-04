@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FNB.Ecommerce.Applicatio.Interface\FNB.Ecommerce.Application.Interface.csproj" />
+    <ProjectReference Include="..\FNB.Ecommerce.Application.DTO\FNB.Ecommerce.Application.DTO.csproj" />
+    <ProjectReference Include="..\FNB.Ecommerce.Application.Main\FNB.Ecommerce.Application.Main.csproj" />
+    <ProjectReference Include="..\FNB.Ecommerce.Domain.Core\FNB.Ecommerce.Domain.Core.csproj" />
+    <ProjectReference Include="..\FNB.Ecommerce.Domain.Entity\FNB.Ecommerce.Domain.Entity.csproj" />
+    <ProjectReference Include="..\FNB.Ecommerce.Domain.Interface\FNB.Ecommerce.Domain.Interface.csproj" />
+    <ProjectReference Include="..\FNB.Ecommerce.Infraestructura.Data\FNB.Ecommerce.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\FNB.Ecommerce.Infraestructure.Interface\FNB.Ecommerce.Infrastructure.Interface.csproj" />
+    <ProjectReference Include="..\FNB.Ecommerce.Infrastruture.Repository\FNB.Ecommerce.Infrastruture.Repository.csproj" />
+    <ProjectReference Include="..\FNB.Ecommerce.Transversal.Common\FNB.Ecommerce.Transversal.Common.csproj" />
+    <ProjectReference Include="..\FNB.Ecommerce.Transvredal.Mapper\FNB.Ecommerce.Transversal.Mapper.csproj" />
+  </ItemGroup>
+
+</Project>

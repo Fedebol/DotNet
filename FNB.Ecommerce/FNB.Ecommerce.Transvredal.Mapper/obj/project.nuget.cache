@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x36CWU+s/8uSCaX/9cX7dcSZbKDDxOmluMWJJJS/1WJktFUSSsb0DT4/wODbpRcjzXDRcLlUQbRhiJdkaVW1EA==",
+  "dgSpecHash": "az5S0lA8Xcs67EfCdgKE9jjPusLuGjnfQCyW+ZTZUIc3SZqCo0p32aIEd/UFdu7fsZCdBx+7dfzHA9eht8DTSQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Transvredal.Mapper\\FNB.Ecommerce.Transvredal.Mapper.csproj",
+  "projectFilePath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Transvredal.Mapper\\FNB.Ecommerce.Transversal.Mapper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Fede\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"

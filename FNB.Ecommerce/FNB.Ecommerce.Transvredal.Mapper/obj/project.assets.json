@@ -156,9 +156,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Transvredal.Mapper\\FNB.Ecommerce.Transvredal.Mapper.csproj",
-      "projectName": "FNB.Ecommerce.Transvredal.Mapper",
-      "projectPath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Transvredal.Mapper\\FNB.Ecommerce.Transvredal.Mapper.csproj",
+      "projectUniqueName": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Transvredal.Mapper\\FNB.Ecommerce.Transversal.Mapper.csproj",
+      "projectName": "FNB.Ecommerce.Transversal.Mapper",
+      "projectPath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Transvredal.Mapper\\FNB.Ecommerce.Transversal.Mapper.csproj",
       "packagesPath": "C:\\Users\\Fede\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Transvredal.Mapper\\obj\\",
       "projectStyle": "PackageReference",
