@@ -20,15 +20,17 @@ using FNB.Ecommerce.Domain.Core;
 using FNB.Ecommerce.Application.Interface;
 using FNB.Ecommerce.Application.Main;
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
 builder.Services.AddAutoMapper(x => x.AddProfile(new MappingsProfile()));
-builder.Services.AddMvc()
-    .SetCompatibilityVersion(CompatibilityVersion.Version_2_2)
-    .AddJsonOptions(options => { options.SerializerSettings.ContractResolver = new Newtonsoft.Json.Serialization.DefaultContractResolver(); });
+builder.Services.AddControllersWithViews()
+                .AddJsonOptions(options => options.JsonSerializerOptions.PropertyNamingPolicy = new Newtonsoft.Json.Serialization.DefaultContractResolver());
+
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

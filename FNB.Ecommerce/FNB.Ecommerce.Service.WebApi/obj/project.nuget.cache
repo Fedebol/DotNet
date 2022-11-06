@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QexAnyinFzG2+LvrHIdPOLX6Hu9mOvtNfJvvB4EMdU2ooDw8YHDawETqnXQf7tBRy1LFKV/Pr5O8BlV8WLRMgw==",
+  "dgSpecHash": "DlddABwDMacdUSgly+KtI00MAX32E1cQavL802U6gJSnEM/53tMZXaCnLrgM5PkuE6877l5ffacJeW1zR9KdJw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Service.WebApi\\FNB.Ecommerce.Service.WebApi.csproj",
   "expectedPackageFiles": [
@@ -28,7 +28,9 @@
     "C:\\Users\\Fede\\.nuget\\packages\\system.data.sqlclient\\4.8.4\\system.data.sqlclient.4.8.4.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
-    "C:\\Users\\Fede\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+    "C:\\Users\\Fede\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\Fede\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\Fede\\.nuget\\packages\\system.text.json\\6.0.6\\system.text.json.6.0.6.nupkg.sha512"
   ],
   "logs": []
 }
