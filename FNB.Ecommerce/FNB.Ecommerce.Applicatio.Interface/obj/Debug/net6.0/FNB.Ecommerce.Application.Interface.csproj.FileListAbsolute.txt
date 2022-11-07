@@ -1,0 +1,17 @@
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Applicatio.Interface\bin\Debug\net6.0\FNB.Ecommerce.Application.Interface.deps.json
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Applicatio.Interface\bin\Debug\net6.0\FNB.Ecommerce.Application.Interface.dll
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Applicatio.Interface\bin\Debug\net6.0\FNB.Ecommerce.Application.Interface.pdb
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Applicatio.Interface\bin\Debug\net6.0\FNB.Ecommerce.Application.DTO.dll
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Applicatio.Interface\bin\Debug\net6.0\FNB.Ecommerce.Transversal.Common.dll
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Applicatio.Interface\bin\Debug\net6.0\FNB.Ecommerce.Application.DTO.pdb
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Applicatio.Interface\bin\Debug\net6.0\FNB.Ecommerce.Transversal.Common.pdb
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Applicatio.Interface\obj\Debug\net6.0\FNB.Ecommerce.Application.Interface.csproj.AssemblyReference.cache
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Applicatio.Interface\obj\Debug\net6.0\FNB.Ecommerce.Application.Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Applicatio.Interface\obj\Debug\net6.0\FNB.Ecommerce.Application.Interface.AssemblyInfoInputs.cache
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Applicatio.Interface\obj\Debug\net6.0\FNB.Ecommerce.Application.Interface.AssemblyInfo.cs
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Applicatio.Interface\obj\Debug\net6.0\FNB.Ecommerce.Application.Interface.csproj.CoreCompileInputs.cache
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Applicatio.Interface\obj\Debug\net6.0\FNB.Ecommerce.Application.Interface.csproj.CopyComplete
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Applicatio.Interface\obj\Debug\net6.0\FNB.Ecommerce.Application.Interface.dll
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Applicatio.Interface\obj\Debug\net6.0\refint\FNB.Ecommerce.Application.Interface.dll
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Applicatio.Interface\obj\Debug\net6.0\FNB.Ecommerce.Application.Interface.pdb
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Applicatio.Interface\obj\Debug\net6.0\ref\FNB.Ecommerce.Application.Interface.dll

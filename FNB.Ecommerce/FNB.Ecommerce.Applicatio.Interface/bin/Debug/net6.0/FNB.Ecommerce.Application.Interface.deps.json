@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FNB.Ecommerce.Application.Interface/1.0.0": {
+        "dependencies": {
+          "FNB.Ecommerce.Application.DTO": "1.0.0",
+          "FNB.Ecommerce.Transversal.Common": "1.0.0"
+        },
+        "runtime": {
+          "FNB.Ecommerce.Application.Interface.dll": {}
+        }
+      },
+      "FNB.Ecommerce.Application.DTO/1.0.0": {
+        "runtime": {
+          "FNB.Ecommerce.Application.DTO.dll": {}
+        }
+      },
+      "FNB.Ecommerce.Transversal.Common/1.0.0": {
+        "runtime": {
+          "FNB.Ecommerce.Transversal.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FNB.Ecommerce.Application.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FNB.Ecommerce.Application.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FNB.Ecommerce.Transversal.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
