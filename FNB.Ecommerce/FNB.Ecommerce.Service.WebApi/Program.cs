@@ -22,7 +22,7 @@ using FNB.Ecommerce.Application.Main;
 using Swashbuckle.AspNetCore.Swagger;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
-
+using FNB.Ecommerce.Service.WebApi.Helpers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -36,6 +36,8 @@ builder.Services.AddControllers();
 builder.Services.AddAutoMapper(x => x.AddProfile(new MappingsProfile()));
 
 string myPolicy = "policyApiEcommerce";
+
+
 builder.Services.AddCors(options => options.AddPolicy(myPolicy, builder => builder.WithOrigins()
                                                                                    .AllowAnyHeader()
                                                                                    .AllowAnyMethod())) ;
@@ -43,6 +45,10 @@ builder.Services.AddCors(options => options.AddPolicy(myPolicy, builder => build
 //builder.Services.AddMvc()
 //              .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 //               .AddJsonOptions(options => { options.SerializerSetting.ContactResolver = new Newtonsoft.Json.Serialization.DefaultContractResolver();});
+
+
+var appSettingsSection = new IConfiguration
+builder.Services.Configure<AppSettings>(appSettingsSection);
 builder.Services.AddSingleton<IConfiguration>();
 builder.Services.AddSingleton<IConnectionFactory, ConnectionFactory>();
 builder.Services.AddScoped<ICustomersApplication, CustomersApplication>();
@@ -91,6 +97,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseCors(myPolicy);
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 
