@@ -34,8 +34,14 @@ builder.Services.AddControllers();
 //    options.SerializerSettings.ContractResolver = new DefaultContractResolver();
 //}); ;
 builder.Services.AddAutoMapper(x => x.AddProfile(new MappingsProfile()));
+
+string myPolicy = "policyApiEcommerce";
+builder.Services.AddCors(options => options.AddPolicy(myPolicy, builder => builder.WithOrigins()
+                                                                                   .AllowAnyHeader()
+                                                                                   .AllowAnyMethod())) ;
+
 //builder.Services.AddMvc()
-//                .SetCompatibilityVersion(CompatibilityVersion.Version_2_2)
+//              .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 //               .AddJsonOptions(options => { options.SerializerSetting.ContactResolver = new Newtonsoft.Json.Serialization.DefaultContractResolver();});
 builder.Services.AddSingleton<IConfiguration>();
 builder.Services.AddSingleton<IConnectionFactory, ConnectionFactory>();
@@ -83,6 +89,8 @@ if (app.Environment.IsDevelopment())
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "My Api Ecommerce V1");
     });
 }
+
+app.UseCors(myPolicy);
 
 app.UseAuthorization();
 
