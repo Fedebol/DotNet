@@ -2,9 +2,11 @@
 using Microsoft.AspNetCore.Mvc;
 using FNB.Ecommerce.Application.DTO;
 using FNB.Ecommerce.Application.Interface;
+using Microsoft.AspNetCore.Authorization;
 
 namespace FNB.Ecommerce.Service.WebApi.Controllers
 {
+    [Authorize] 
     [Route("api/[controller]/[accion]")]
     [ApiController]
     public class CustomersController : ControllerBase

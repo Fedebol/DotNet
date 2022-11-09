@@ -23,6 +23,11 @@ using Swashbuckle.AspNetCore.Swagger;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
 using FNB.Ecommerce.Service.WebApi.Helpers;
+using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.FeatureManagement.FeatureFilters;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -47,13 +52,60 @@ builder.Services.AddCors(options => options.AddPolicy(myPolicy, builder => build
 //               .AddJsonOptions(options => { options.SerializerSetting.ContactResolver = new Newtonsoft.Json.Serialization.DefaultContractResolver();});
 
 
-var appSettingsSection = new IConfiguration
-builder.Services.Configure<AppSettings>(appSettingsSection);
+// var appSettingsSection = new IConfiguration
+ //builder.Services.Configure<AppSettings>(appSettingsSection);
+// var appSetting = appSettingSection.Get<AppSettings>
+
 builder.Services.AddSingleton<IConfiguration>();
 builder.Services.AddSingleton<IConnectionFactory, ConnectionFactory>();
 builder.Services.AddScoped<ICustomersApplication, CustomersApplication>();
 builder.Services.AddScoped<ICustomersDomain, CustomersDomain>();
 builder.Services.AddScoped<ICustomersRepository, CustomersRepository>();
+builder.Services.AddScoped<IUsersApplication, UsersApplication>();
+builder.Services.AddScoped<IUsersDomain, UsersDomain>();
+builder.Services.AddScoped<IUsersRepository, UsersRepository>();
+
+//var key = Encoding.ASCII.GetBytes(AppSettings.Secret);
+//var Issuer = appSettings.Issuer;
+//var Audience = sppSettings.Audience; 
+
+builder.Services.AddAuthentication(x =>
+{
+    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+    .AddJwtBearer(x =>
+    {
+        x.Events = new JwtBearerEvents
+        {
+            OnTokenValidated = context =>
+            {
+                var userId = int.Parse(context.Principal.Identity.Name);
+                return Task.CompletedTask;
+            },
+            OnAuthenticationFailed = context =>
+            {
+                if (context.Exception.GetType() == typeof(SecurityTokenExpiredException))
+                {
+                    context.Response.Headers.Add("Token-Expired", "true");
+                }
+                return Task.CompletedTask;
+            }
+        };
+        x.RequireHttpsMetadata = false;
+        x.SaveToken = false;
+        x.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new SymmetricSecurityKey(key),
+            ValidateIssuer = true,
+            ValidIssuer = Issuer,
+            ValidateAudience = true,
+            ValidAudience = Audience,
+            ValidateLifetime = true,
+            ClockSkew = TimeSpan.Zero
+        };
+    });
 
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -82,6 +134,13 @@ builder.Services.AddSwaggerGen(c =>
     var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
     var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
     c.IncludeXmlComments(xmlPath);
+
+    c.AddSecurityDefinition("Authorization", new ApiKeyScheme
+    {
+        Description = "Authorization by API key.",
+        Index = "header",
+        Nmae = "Authorization"
+    });
 });
 
 var app = builder.Build();
