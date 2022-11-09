@@ -141,6 +141,11 @@ builder.Services.AddSwaggerGen(c =>
         Index = "header",
         Nmae = "Authorization"
     });
+
+    c.AddSecurityRequirement(new Dictionary<string, IEnumerable<string>>
+    {
+        {"Authorization", new string[0] }
+    });
 });
 
 var app = builder.Build();
