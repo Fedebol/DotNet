@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pp/IWpEwoZmCo8/X5IAkj3ca++iBG/5XrI6NqoVTQW/PtAWWBX3dPMgnbwoTiFS454ZlCpBVud9vRADhz3Z4ag==",
+  "dgSpecHash": "DU6MLsJBFPOdhrXFmNYlguoCHDWVsMm7DczVTHmZrznBM4aItWKVOtvaq3z/ubLJz+OIZCjWgaPmT+3I2ocvWg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Service.WebApi\\FNB.Ecommerce.Service.WebApi.csproj",
   "expectedPackageFiles": [

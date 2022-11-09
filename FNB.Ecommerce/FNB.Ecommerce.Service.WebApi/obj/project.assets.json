@@ -914,6 +914,20 @@
           "bin/placeholder/FNB.Ecommerce.Transversal.Common.dll": {}
         }
       },
+      "FNB.Ecommerce.Transversal.Logging/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FNB.Ecommerce.Transversal.Common": "1.0.0",
+          "Microsoft.Extensions.Logging": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FNB.Ecommerce.Transversal.Logging.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FNB.Ecommerce.Transversal.Logging.dll": {}
+        }
+      },
       "FNB.Ecommerce.Transversal.Mapper/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -3316,6 +3330,11 @@
       "path": "../FNB.Ecommerce.Transversal.Common/FNB.Ecommerce.Transversal.Common.csproj",
       "msbuildProject": "../FNB.Ecommerce.Transversal.Common/FNB.Ecommerce.Transversal.Common.csproj"
     },
+    "FNB.Ecommerce.Transversal.Logging/1.0.0": {
+      "type": "project",
+      "path": "../FNB.Ecommerce.Transversal.Logging/FNB.Ecommerce.Transversal.Logging.csproj",
+      "msbuildProject": "../FNB.Ecommerce.Transversal.Logging/FNB.Ecommerce.Transversal.Logging.csproj"
+    },
     "FNB.Ecommerce.Transversal.Mapper/1.0.0": {
       "type": "project",
       "path": "../FNB.Ecommerce.Transvredal.Mapper/FNB.Ecommerce.Transversal.Mapper.csproj",
@@ -3336,6 +3355,7 @@
       "FNB.Ecommerce.Infrastructure.Interface >= 1.0.0",
       "FNB.Ecommerce.Infrastruture.Repository >= 1.0.0",
       "FNB.Ecommerce.Transversal.Common >= 1.0.0",
+      "FNB.Ecommerce.Transversal.Logging >= 1.0.0",
       "FNB.Ecommerce.Transversal.Mapper >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.0",
@@ -3411,6 +3431,9 @@
             },
             "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Transversal.Common\\FNB.Ecommerce.Transversal.Common.csproj": {
               "projectPath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Transversal.Common\\FNB.Ecommerce.Transversal.Common.csproj"
+            },
+            "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Transversal.Logging\\FNB.Ecommerce.Transversal.Logging.csproj": {
+              "projectPath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Transversal.Logging\\FNB.Ecommerce.Transversal.Logging.csproj"
             },
             "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Transvredal.Mapper\\FNB.Ecommerce.Transversal.Mapper.csproj": {
               "projectPath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Transvredal.Mapper\\FNB.Ecommerce.Transversal.Mapper.csproj"

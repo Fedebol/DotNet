@@ -28,6 +28,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.FeatureManagement.FeatureFilters;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using FNB.Ecommerce.Transversal.Logging;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -64,6 +65,7 @@ builder.Services.AddScoped<ICustomersRepository, CustomersRepository>();
 builder.Services.AddScoped<IUsersApplication, UsersApplication>();
 builder.Services.AddScoped<IUsersDomain, UsersDomain>();
 builder.Services.AddScoped<IUsersRepository, UsersRepository>();
+builder.Services.AddScoped(typeof(IAppLogger<>), typeof(LoggerAdapter<>));
 
 //var key = Encoding.ASCII.GetBytes(AppSettings.Secret);
 //var Issuer = appSettings.Issuer;
