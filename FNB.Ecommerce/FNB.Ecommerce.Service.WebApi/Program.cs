@@ -30,32 +30,30 @@ using Microsoft.FeatureManagement.FeatureFilters;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using FNB.Ecommerce.Transversal.Logging;
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
-//   .AddJsonOptions(options =>
-//{
-//    options.SerializerSettings.ContractResolver = new DefaultContractResolver();
-//}); ;
 builder.Services.AddAutoMapper(x => x.AddProfile(new MappingsProfile()));
 
 string myPolicy = "policyApiEcommerce";
-
+IConfiguration? configuration;
 
 builder.Services.AddCors(options => options.AddPolicy(myPolicy, builder => builder.WithOrigins()
                                                                                    .AllowAnyHeader()
                                                                                    .AllowAnyMethod())) ;
-
-//builder.Services.AddMvc()
-//              .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-//               .AddJsonOptions(options => { options.SerializerSetting.ContactResolver = new Newtonsoft.Json.Serialization.DefaultContractResolver();});
+builder.Services.AddMvc()
+              .SetCompatibilityVersion(CompatibilityVersion.Latest);
 
 
-// var appSettingsSection = new IConfiguration
- //builder.Services.Configure<AppSettings>(appSettingsSection);
-// var appSetting = appSettingSection.Get<AppSettings>
+
+var appSettingsSection = configuration.GetSection("Config");
+builder.Services.Configure<AppSettings>(appSettingsSection);
+
+
+var appSetting = appSettingsSection.Get < AppSettings >
 
 builder.Services.AddSingleton<IConfiguration>();
 builder.Services.AddSingleton<IConnectionFactory, ConnectionFactory>();
@@ -67,9 +65,9 @@ builder.Services.AddScoped<IUsersDomain, UsersDomain>();
 builder.Services.AddScoped<IUsersRepository, UsersRepository>();
 builder.Services.AddScoped(typeof(IAppLogger<>), typeof(LoggerAdapter<>));
 
-//var key = Encoding.ASCII.GetBytes(AppSettings.Secret);
-//var Issuer = appSettings.Issuer;
-//var Audience = sppSettings.Audience; 
+var key = Encoding.ASCII.GetBytes(AppSettings.Secret);
+var Issuer = appSettings.Issuer;
+var Audience = appSettings.Audience; 
 
 builder.Services.AddAuthentication(x =>
 {
@@ -137,16 +135,28 @@ builder.Services.AddSwaggerGen(c =>
     var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
     c.IncludeXmlComments(xmlPath);
 
-    c.AddSecurityDefinition("Authorization", new ApiKeyScheme
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Description = "Authorization by API key.",
-        Index = "header",
-        Nmae = "Authorization"
+        In = ParameterLocation.Header,
+        Type = SecuritySchemeType.ApiKey,
+        Name = "Authorization"
     });
 
-    c.AddSecurityRequirement(new Dictionary<string, IEnumerable<string>>
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement
     {
-        {"Authorization", new string[0] }
+        {
+
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            new string[]{}
+        }
     });
 });
 

@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Authorization;
 namespace FNB.Ecommerce.Service.WebApi.Controllers
 {
     [Authorize] 
-    [Route("api/[controller]/[accion]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class CustomersController : ControllerBase
     {
@@ -18,7 +18,7 @@ namespace FNB.Ecommerce.Service.WebApi.Controllers
         }
 
         #region "Metodos sincronos"
-        [HttpPost]
+        [HttpPost("Insert")]
         public IActionResult Insert([FromBody] CustomersDTO customersDTO)
         {
             if (customersDTO == null)
@@ -29,7 +29,7 @@ namespace FNB.Ecommerce.Service.WebApi.Controllers
             return BadRequest(response.Message);
         }
 
-        [HttpPut]
+        [HttpPut("Update")]
         public IActionResult Update([FromBody] CustomersDTO customersDTO)
         {
             if (customersDTO == null)
@@ -40,7 +40,7 @@ namespace FNB.Ecommerce.Service.WebApi.Controllers
             return BadRequest(response.Message);
         }
 
-        [HttpDelete("{customerId}")]
+        [HttpDelete("Delete/{customerId}")]
         public IActionResult Delete(string customerId)
         {
             if (string.IsNullOrEmpty(customerId))
@@ -51,7 +51,7 @@ namespace FNB.Ecommerce.Service.WebApi.Controllers
             return BadRequest(response.Message);
         }
 
-        [HttpGet("{customerId}")]
+        [HttpGet("Get/{customerId}")]
         public IActionResult Get(string customerId)
         {
             if (string.IsNullOrEmpty(customerId))
@@ -62,7 +62,7 @@ namespace FNB.Ecommerce.Service.WebApi.Controllers
             return BadRequest(response.Message);
         }
 
-        [HttpGet]
+        [HttpGet("GetAll")]
         public IActionResult GetAll()
         {
             var response = _customersApplication.GetAll();
@@ -73,7 +73,7 @@ namespace FNB.Ecommerce.Service.WebApi.Controllers
         #endregion
 
         #region"metodos asincronos"
-        [HttpPost]
+        [HttpPost("InsertAsync")]
         public async Task <IActionResult> InsertAsync([FromBody] CustomersDTO customersDTO)
         {
             if (customersDTO == null)
@@ -84,7 +84,7 @@ namespace FNB.Ecommerce.Service.WebApi.Controllers
             return BadRequest(response.Message);
         }
 
-        [HttpPut]
+        [HttpPut("UpdateAsync")]
         public async Task <IActionResult> UpdateAsync([FromBody] CustomersDTO customersDTO)
         {
             if (customersDTO == null)
@@ -95,7 +95,7 @@ namespace FNB.Ecommerce.Service.WebApi.Controllers
             return BadRequest(response.Message);
         }
 
-        [HttpDelete("{customerId}")]
+        [HttpDelete("DeleteAsync/{customerId}")]
         public async Task <IActionResult> DeleteAsync(string customerId)
         {
             if (string.IsNullOrEmpty(customerId))
@@ -106,7 +106,7 @@ namespace FNB.Ecommerce.Service.WebApi.Controllers
             return BadRequest(response.Message);
         }
 
-        [HttpGet("{customerId}")]
+        [HttpGet("GetAsync/{customerId}")]
         public async Task <IActionResult> GetAsync(string customerId)
         {
             if (string.IsNullOrEmpty(customerId))
@@ -117,7 +117,7 @@ namespace FNB.Ecommerce.Service.WebApi.Controllers
             return BadRequest(response.Message);
         }
 
-        [HttpGet]
+        [HttpGet("GetAllAsync")]
         public async Task <IActionResult> GetAllAsync()
         {
             var response = await _customersApplication.GetAllAsync();

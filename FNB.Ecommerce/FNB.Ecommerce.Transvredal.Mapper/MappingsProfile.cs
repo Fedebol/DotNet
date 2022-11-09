@@ -9,6 +9,7 @@ namespace FNB.Ecommerce.Transvredal.Mapper
         public MappingsProfile()
         {
             CreateMap<Customers, CustomersDTO>().ReverseMap();
+            CreateMap<Users, UsersDTO>().ReverseMap();
 
            /* Mapeo de campo a campo
             * CreateMap<Customers, CustomersDTO>().ReverseMap()

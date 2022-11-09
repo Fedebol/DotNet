@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.Authorization;
 namespace FNB.Ecommerce.Service.WebApi.Controllers
 {
     [Authorize]
-    [Route("api/[controller]/[action]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class UsersController : ControllerBase
     {
@@ -26,7 +26,7 @@ namespace FNB.Ecommerce.Service.WebApi.Controllers
             _appSettings = appSettings.Value;
         }
         [AllowAnonymous]
-        [HttpPost]
+        [HttpPost("Authenticate")]
         public IActionResult Authenticate([FromBody]UsersDTO userDTO)
         {
             var response = _usersApplication.Authenticate(userDTO.UserName, userDTO.Password);
