@@ -2,7 +2,7 @@
 using FNB.Ecommerce.Domain.Entity;
 using FNB.Ecommerce.Application.DTO;
 
-namespace FNB.Ecommerce.Transvredal.Mapper
+namespace FNB.Ecommerce.Transversal.Mapper
 {
     public class MappingsProfile : Profile
     {

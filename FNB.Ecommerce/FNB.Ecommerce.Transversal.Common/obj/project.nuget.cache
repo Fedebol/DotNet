@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "qkxG1FzyK7eJMSxCi4dAC0tqrH3DGoLKgetvNpHrI+0msqcGY743RK18zjrj4BRF26NfhhMRZkwBW59i/nLM6Q==",
+  "dgSpecHash": "4Djv7BASU90MMzEWRK5lHkFgwq/UWn1LoBLjQJ5T2VAJhOiLw2sCLIpmy2fU02Dc972ndH+BbRMQMKKDt8iHYA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Transversal.Common\\FNB.Ecommerce.Transversal.Common.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Fede\\.nuget\\packages\\fluentvalidation\\11.3.0\\fluentvalidation.11.3.0.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",

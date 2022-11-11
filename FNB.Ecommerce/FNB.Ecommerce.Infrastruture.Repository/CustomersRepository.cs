@@ -9,7 +9,7 @@ using System.Collections.Generic;
 
 
 
-namespace FNB.Ecommerce.Infrastruture.Repository
+namespace FNB.Ecommerce.Infrastructure.Repository
 {
     public class CustomersRepository : ICustomersRepository
     {

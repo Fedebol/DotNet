@@ -1,0 +1,17 @@
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Transvredal.Mapper\bin\Release\net6.0\FNB.Ecommerce.Transversal.Mapper.deps.json
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Transvredal.Mapper\bin\Release\net6.0\FNB.Ecommerce.Transversal.Mapper.dll
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Transvredal.Mapper\bin\Release\net6.0\FNB.Ecommerce.Transversal.Mapper.pdb
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Transvredal.Mapper\bin\Release\net6.0\FNB.Ecommerce.Application.DTO.dll
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Transvredal.Mapper\bin\Release\net6.0\FNB.Ecommerce.Domain.Entity.dll
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Transvredal.Mapper\bin\Release\net6.0\FNB.Ecommerce.Application.DTO.pdb
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Transvredal.Mapper\bin\Release\net6.0\FNB.Ecommerce.Domain.Entity.pdb
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Transvredal.Mapper\obj\Release\net6.0\FNB.Ecommerce.Transversal.Mapper.csproj.AssemblyReference.cache
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Transvredal.Mapper\obj\Release\net6.0\FNB.Ecommerce.Transversal.Mapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Transvredal.Mapper\obj\Release\net6.0\FNB.Ecommerce.Transversal.Mapper.AssemblyInfoInputs.cache
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Transvredal.Mapper\obj\Release\net6.0\FNB.Ecommerce.Transversal.Mapper.AssemblyInfo.cs
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Transvredal.Mapper\obj\Release\net6.0\FNB.Ecommerce.Transversal.Mapper.csproj.CoreCompileInputs.cache
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Transvredal.Mapper\obj\Release\net6.0\FNB.Ecommerce.Transversal.Mapper.csproj.CopyComplete
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Transvredal.Mapper\obj\Release\net6.0\FNB.Ecommerce.Transversal.Mapper.dll
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Transvredal.Mapper\obj\Release\net6.0\refint\FNB.Ecommerce.Transversal.Mapper.dll
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Transvredal.Mapper\obj\Release\net6.0\FNB.Ecommerce.Transversal.Mapper.pdb
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Transvredal.Mapper\obj\Release\net6.0\ref\FNB.Ecommerce.Transversal.Mapper.dll

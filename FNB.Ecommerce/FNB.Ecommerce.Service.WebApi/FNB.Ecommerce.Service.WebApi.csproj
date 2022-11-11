@@ -17,7 +17,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />
     <PackageReference Include="Microsoft.FeatureManagement" Version="2.5.1" />
-    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.15.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
     <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.4.0" />
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.4.0" />
@@ -30,6 +30,7 @@
     <ProjectReference Include="..\FNB.Ecommerce.Applicatio.Interface\FNB.Ecommerce.Application.Interface.csproj" />
     <ProjectReference Include="..\FNB.Ecommerce.Application.DTO\FNB.Ecommerce.Application.DTO.csproj" />
     <ProjectReference Include="..\FNB.Ecommerce.Application.Main\FNB.Ecommerce.Application.Main.csproj" />
+    <ProjectReference Include="..\FNB.Ecommerce.Application.Validator\FNB.Ecommerce.Application.Validator.csproj" />
     <ProjectReference Include="..\FNB.Ecommerce.Domain.Core\FNB.Ecommerce.Domain.Core.csproj" />
     <ProjectReference Include="..\FNB.Ecommerce.Domain.Entity\FNB.Ecommerce.Domain.Entity.csproj" />
     <ProjectReference Include="..\FNB.Ecommerce.Domain.Interface\FNB.Ecommerce.Domain.Interface.csproj" />

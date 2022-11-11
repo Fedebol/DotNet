@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ULe/nRCV0goQ5sbajSrk8pbpXBvCl05x0uqb4A5k8Tc=",
+  "Source": "FNB.Ecommerce.Service.WebApi",
+  "BasePath": "_content/FNB.Ecommerce.Service.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

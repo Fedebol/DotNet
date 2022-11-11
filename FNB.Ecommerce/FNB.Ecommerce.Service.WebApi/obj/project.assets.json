@@ -48,6 +48,28 @@
           "lib/net6.0/FluentAssertions.dll": {}
         }
       },
+      "FluentValidation/11.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {}
+        }
+      },
+      "FluentValidation.DependencyInjectionExtensions/11.3.0": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "11.3.0",
+          "Microsoft.Extensions.Dependencyinjection.Abstractions": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -400,7 +422,7 @@
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
         }
       },
-      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.15.1": {
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.17.0": {
         "type": "package",
         "build": {
           "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.props": {},
@@ -860,6 +882,7 @@
           "AutoMapper": "12.0.0",
           "FNB.Ecommerce.Application.DTO": "1.0.0",
           "FNB.Ecommerce.Application.Interface": "1.0.0",
+          "FNB.Ecommerce.Application.Validator": "1.0.0",
           "FNB.Ecommerce.Domain.Entity": "1.0.0",
           "FNB.Ecommerce.Domain.Interface": "1.0.0",
           "FNB.Ecommerce.Transversal.Common": "1.0.0"
@@ -869,6 +892,21 @@
         },
         "runtime": {
           "bin/placeholder/FNB.Ecommerce.Application.Main.dll": {}
+        }
+      },
+      "FNB.Ecommerce.Application.Validator/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FNB.Ecommerce.Application.DTO": "1.0.0",
+          "FluentValidation": "11.3.0",
+          "FluentValidation.DependencyInjectionExtensions": "11.3.0"
+        },
+        "compile": {
+          "bin/placeholder/FNB.Ecommerce.Application.Validator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FNB.Ecommerce.Application.Validator.dll": {}
         }
       },
       "FNB.Ecommerce.Domain.Core/1.0.0": {
@@ -957,6 +995,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "FluentValidation": "11.3.0",
           "System.Data.Common": "4.3.0"
         },
         "compile": {
@@ -1073,6 +1112,46 @@
         "lib/netstandard2.1/FluentAssertions.dll",
         "lib/netstandard2.1/FluentAssertions.pdb",
         "lib/netstandard2.1/FluentAssertions.xml"
+      ]
+    },
+    "FluentValidation/11.3.0": {
+      "sha512": "AlsfUkdIzSMA2v091K0gT1YjEwc7YR5pIA5yq7PnZivhoH3YETMhZbUySzsLbJKhj/E3ei6nEgtqdm00AVHXeg==",
+      "type": "package",
+      "path": "fluentvalidation/11.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.3.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/net7.0/FluentValidation.dll",
+        "lib/net7.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
+    "FluentValidation.DependencyInjectionExtensions/11.3.0": {
+      "sha512": "C7gtDO79JVRtZob4K4VvabpXEEcvxH6Bh3MzS/TAjoGlOu1/m93+NrAwzjWxUmPFMq+lk7/at+zu2uM8rB1tXg==",
+      "type": "package",
+      "path": "fluentvalidation.dependencyinjectionextensions/11.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.dependencyinjectionextensions.11.3.0.nupkg.sha512",
+        "fluentvalidation.dependencyinjectionextensions.nuspec",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.xml",
+        "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.xml"
       ]
     },
     "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.0": {
@@ -1955,10 +2034,10 @@
         "microsoft.openapi.nuspec"
       ]
     },
-    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.15.1": {
-      "sha512": "dcsF7rjxvMnqtfckpzWYvBsZsJD51yQVHSSgd2EN5/CJ/zQigJrfo313lvAwf0VL9ZOHLnJthuboadjnBAU7Ng==",
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.17.0": {
+      "sha512": "gfDtAL1WhkjbRdbZlt/ZeQYCbgRpNCZCGj+yeqHObsNFRDHjq8qZJOX9AyTxJpSRYMi9SJk7JDyAbbVYRgEhAA==",
       "type": "package",
-      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.15.1",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.17.0",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1986,7 +2065,7 @@
         "build/ToolsTarget.props",
         "build/ToolsTarget.targets",
         "icon.png",
-        "microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512",
+        "microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
         "microsoft.visualstudio.azure.containers.tools.targets.nuspec",
         "tools/Microsoft.VisualStudio.Containers.Tools.Common.dll",
         "tools/Microsoft.VisualStudio.Containers.Tools.Shared.dll",
@@ -3535,6 +3614,11 @@
       "path": "../FNB.Ecommerce.Application.Main/FNB.Ecommerce.Application.Main.csproj",
       "msbuildProject": "../FNB.Ecommerce.Application.Main/FNB.Ecommerce.Application.Main.csproj"
     },
+    "FNB.Ecommerce.Application.Validator/1.0.0": {
+      "type": "project",
+      "path": "../FNB.Ecommerce.Application.Validator/FNB.Ecommerce.Application.Validator.csproj",
+      "msbuildProject": "../FNB.Ecommerce.Application.Validator/FNB.Ecommerce.Application.Validator.csproj"
+    },
     "FNB.Ecommerce.Domain.Core/1.0.0": {
       "type": "project",
       "path": "../FNB.Ecommerce.Domain.Core/FNB.Ecommerce.Domain.Core.csproj",
@@ -3588,6 +3672,7 @@
       "FNB.Ecommerce.Application.DTO >= 1.0.0",
       "FNB.Ecommerce.Application.Interface >= 1.0.0",
       "FNB.Ecommerce.Application.Main >= 1.0.0",
+      "FNB.Ecommerce.Application.Validator >= 1.0.0",
       "FNB.Ecommerce.Domain.Core >= 1.0.0",
       "FNB.Ecommerce.Domain.Entity >= 1.0.0",
       "FNB.Ecommerce.Domain.Interface >= 1.0.0",
@@ -3601,7 +3686,7 @@
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.0",
       "Microsoft.FeatureManagement >= 2.5.1",
-      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.15.1",
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.17.0",
       "Swashbuckle.AspNetCore >= 6.4.0",
       "Swashbuckle.AspNetCore.Swagger >= 6.4.0",
       "Swashbuckle.AspNetCore.SwaggerGen >= 6.4.0",
@@ -3652,6 +3737,9 @@
             },
             "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Application.Main\\FNB.Ecommerce.Application.Main.csproj": {
               "projectPath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Application.Main\\FNB.Ecommerce.Application.Main.csproj"
+            },
+            "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Application.Validator\\FNB.Ecommerce.Application.Validator.csproj": {
+              "projectPath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Application.Validator\\FNB.Ecommerce.Application.Validator.csproj"
             },
             "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Domain.Core\\FNB.Ecommerce.Domain.Core.csproj": {
               "projectPath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Domain.Core\\FNB.Ecommerce.Domain.Core.csproj"
@@ -3719,7 +3807,7 @@
           },
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
             "target": "Package",
-            "version": "[1.15.1, )"
+            "version": "[1.17.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

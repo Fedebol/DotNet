@@ -1,0 +1,15 @@
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Domain.Interface\bin\Release\net6.0\FNB.Ecommerce.Domain.Interface.deps.json
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Domain.Interface\bin\Release\net6.0\FNB.Ecommerce.Domain.Interface.dll
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Domain.Interface\bin\Release\net6.0\FNB.Ecommerce.Domain.Interface.pdb
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Domain.Interface\bin\Release\net6.0\FNB.Ecommerce.Domain.Entity.dll
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Domain.Interface\bin\Release\net6.0\FNB.Ecommerce.Domain.Entity.pdb
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Domain.Interface\obj\Release\net6.0\FNB.Ecommerce.Domain.Interface.csproj.AssemblyReference.cache
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Domain.Interface\obj\Release\net6.0\FNB.Ecommerce.Domain.Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Domain.Interface\obj\Release\net6.0\FNB.Ecommerce.Domain.Interface.AssemblyInfoInputs.cache
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Domain.Interface\obj\Release\net6.0\FNB.Ecommerce.Domain.Interface.AssemblyInfo.cs
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Domain.Interface\obj\Release\net6.0\FNB.Ecommerce.Domain.Interface.csproj.CoreCompileInputs.cache
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Domain.Interface\obj\Release\net6.0\FNB.Ecommerce.Domain.Interface.csproj.CopyComplete
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Domain.Interface\obj\Release\net6.0\FNB.Ecommerce.Domain.Interface.dll
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Domain.Interface\obj\Release\net6.0\refint\FNB.Ecommerce.Domain.Interface.dll
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Domain.Interface\obj\Release\net6.0\FNB.Ecommerce.Domain.Interface.pdb
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Domain.Interface\obj\Release\net6.0\ref\FNB.Ecommerce.Domain.Interface.dll

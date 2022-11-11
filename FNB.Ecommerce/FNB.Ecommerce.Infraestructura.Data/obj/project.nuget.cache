@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "WlGHWnwJ2KaZtbDeffEHk5cYy1ciNUSF/rktStfhorD1ElrxzO/dbsMvfOnGNx/G4Oqc4RLQXT2UKGhtDzJ/NQ==",
+  "dgSpecHash": "cj1gzo9RMsnIduT5Rm4aK/O88DB9fJ0NUplMCrsbmx9V1VcokRq5SsbFCIXbjUSTURKRVm0ZovKzefW6Bz5YvA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infraestructura.Data\\FNB.Ecommerce.Infrastructure.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Fede\\.nuget\\packages\\fluentvalidation\\11.3.0\\fluentvalidation.11.3.0.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",

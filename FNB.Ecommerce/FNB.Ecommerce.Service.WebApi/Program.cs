@@ -11,9 +11,9 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using AutoMapper;
 using FNB.Ecommerce.Transversal.Common;
-using FNB.Ecommerce.Transvredal.Mapper;
+using FNB.Ecommerce.Transversal.Mapper;
 using FNB.Ecommerce.Infrastructure.Data;
-using FNB.Ecommerce.Infrastruture.Repository;
+using FNB.Ecommerce.Infrastructure.Repository;
 using FNB.Ecommerce.Infrastructure.Interface;
 using FNB.Ecommerce.Domain.Interface;
 using FNB.Ecommerce.Domain.Core;
@@ -34,6 +34,8 @@ using FNB.Ecommerce.Service.WebApi.Modules.Authentication;
 using FluentAssertions.Common;
 using FNB.Ecommerce.Service.WebApi.Modules.Mapper;
 using FNB.Ecommerce.Service.WebApi.Modules.Feature;
+using FNB.Ecommerce.Service.WebApi.Modules.Injection;
+using FNB.Ecommerce.Service.WebApi.Modules.Validator;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -41,17 +43,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 //builder.Services.AddFeature(this.configuratio);
-
-
-
-
+//builder.Services.AddInjection(this.Configuration);
 builder.Services.AddMapper();
-
-
-
-
-
 // builder.Services.AddAuthentication1(this.configuration);
+
+builder.Services.AddValidator();
 
 
 

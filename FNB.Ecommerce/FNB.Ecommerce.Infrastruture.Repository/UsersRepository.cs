@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FNB.Ecommerce.Infrastruture.Repository
+namespace FNB.Ecommerce.Infrastructure.Repository
 {
     public class UsersRepository : IUsersRepository
     {

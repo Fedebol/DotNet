@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using AutoMapper;
-using FNB.Ecommerce.Transvredal.Mapper;
+using FNB.Ecommerce.Transversal.Mapper;
 
 namespace FNB.Ecommerce.Service.WebApi.Modules.Mapper
 {

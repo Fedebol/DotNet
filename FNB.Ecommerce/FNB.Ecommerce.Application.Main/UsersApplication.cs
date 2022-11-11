@@ -3,6 +3,7 @@ using FNB.Ecommerce.Application.DTO;
 using FNB.Ecommerce.Application.Interface;
 using FNB.Ecommerce.Transversal.Common;
 using AutoMapper;
+using FNB.Ecommerce.Application.Validator;
 
 namespace FNB.Ecommerce.Application.Main
 {
@@ -10,18 +11,23 @@ namespace FNB.Ecommerce.Application.Main
     {
         private readonly IUsersDomain _usersDomain;
         private readonly IMapper _mapper;
+        private readonly UsersDTOValidator _userDTOvalidator;
 
-        public UsersApplication(IUsersDomain usersDomain, IMapper iMapper)
+        public UsersApplication(IUsersDomain usersDomain, IMapper iMapper, UsersDTOValidator userDTOvalidator)
         {
             _usersDomain = usersDomain;
             _mapper = iMapper;
+            _userDTOvalidator = userDTOvalidator;
         }
         public Response<UsersDTO> Authenticate(string username, string password)
         {
             var response = new Response<UsersDTO>();
-            if(string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
+            var validator = _userDTOvalidator.Validate(new UsersDTO() { UserName = username, Password = password });
+
+            if(!validator.IsValid)
             {
-                response.Message = "Parametros no pueden ser vacios";
+                response.Message = "Errores de validacion";
+                response.Errors = validator.Errors;
                 return response;
 
             }

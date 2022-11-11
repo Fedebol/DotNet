@@ -14,6 +14,28 @@
           "lib/netstandard2.1/AutoMapper.dll": {}
         }
       },
+      "FluentValidation/11.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {}
+        }
+      },
+      "FluentValidation.DependencyInjectionExtensions/11.3.0": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "11.3.0",
+          "Microsoft.Extensions.Dependencyinjection.Abstractions": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.7.0": {
         "type": "package",
         "compile": {
@@ -21,6 +43,15 @@
         },
         "runtime": {
           "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {
@@ -211,6 +242,21 @@
           "bin/placeholder/FNB.Ecommerce.Application.Interface.dll": {}
         }
       },
+      "FNB.Ecommerce.Application.Validator/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "FNB.Ecommerce.Application.DTO": "1.0.0",
+          "FluentValidation": "11.3.0",
+          "FluentValidation.DependencyInjectionExtensions": "11.3.0"
+        },
+        "compile": {
+          "bin/placeholder/FNB.Ecommerce.Application.Validator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FNB.Ecommerce.Application.Validator.dll": {}
+        }
+      },
       "FNB.Ecommerce.Domain.Entity/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -238,6 +284,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "FluentValidation": "11.3.0",
           "System.Data.Common": "4.3.0"
         },
         "compile": {
@@ -263,6 +310,46 @@
         "icon.png",
         "lib/netstandard2.1/AutoMapper.dll",
         "lib/netstandard2.1/AutoMapper.xml"
+      ]
+    },
+    "FluentValidation/11.3.0": {
+      "sha512": "AlsfUkdIzSMA2v091K0gT1YjEwc7YR5pIA5yq7PnZivhoH3YETMhZbUySzsLbJKhj/E3ei6nEgtqdm00AVHXeg==",
+      "type": "package",
+      "path": "fluentvalidation/11.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.3.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/net7.0/FluentValidation.dll",
+        "lib/net7.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
+    "FluentValidation.DependencyInjectionExtensions/11.3.0": {
+      "sha512": "C7gtDO79JVRtZob4K4VvabpXEEcvxH6Bh3MzS/TAjoGlOu1/m93+NrAwzjWxUmPFMq+lk7/at+zu2uM8rB1tXg==",
+      "type": "package",
+      "path": "fluentvalidation.dependencyinjectionextensions/11.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.dependencyinjectionextensions.11.3.0.nupkg.sha512",
+        "fluentvalidation.dependencyinjectionextensions.nuspec",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.xml",
+        "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.xml"
       ]
     },
     "Microsoft.CSharp/4.7.0": {
@@ -332,6 +419,19 @@
         "ref/xamarinwatchos10/_._",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.0": {
+      "sha512": "8/CtASu80UIoyG+r8FstrmZW5GLtXxzoYpjj3jV0FKZCL5CiFgSH3pAmqut/dC68mu7N1bU6v0UtKKL3gCUQGQ==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
@@ -1230,6 +1330,11 @@
       "path": "../FNB.Ecommerce.Applicatio.Interface/FNB.Ecommerce.Application.Interface.csproj",
       "msbuildProject": "../FNB.Ecommerce.Applicatio.Interface/FNB.Ecommerce.Application.Interface.csproj"
     },
+    "FNB.Ecommerce.Application.Validator/1.0.0": {
+      "type": "project",
+      "path": "../FNB.Ecommerce.Application.Validator/FNB.Ecommerce.Application.Validator.csproj",
+      "msbuildProject": "../FNB.Ecommerce.Application.Validator/FNB.Ecommerce.Application.Validator.csproj"
+    },
     "FNB.Ecommerce.Domain.Entity/1.0.0": {
       "type": "project",
       "path": "../FNB.Ecommerce.Domain.Entity/FNB.Ecommerce.Domain.Entity.csproj",
@@ -1251,6 +1356,7 @@
       "AutoMapper >= 12.0.0",
       "FNB.Ecommerce.Application.DTO >= 1.0.0",
       "FNB.Ecommerce.Application.Interface >= 1.0.0",
+      "FNB.Ecommerce.Application.Validator >= 1.0.0",
       "FNB.Ecommerce.Domain.Entity >= 1.0.0",
       "FNB.Ecommerce.Domain.Interface >= 1.0.0",
       "FNB.Ecommerce.Transversal.Common >= 1.0.0"
@@ -1295,6 +1401,9 @@
             },
             "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Application.DTO\\FNB.Ecommerce.Application.DTO.csproj": {
               "projectPath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Application.DTO\\FNB.Ecommerce.Application.DTO.csproj"
+            },
+            "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Application.Validator\\FNB.Ecommerce.Application.Validator.csproj": {
+              "projectPath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Application.Validator\\FNB.Ecommerce.Application.Validator.csproj"
             },
             "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Domain.Entity\\FNB.Ecommerce.Domain.Entity.csproj": {
               "projectPath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Domain.Entity\\FNB.Ecommerce.Domain.Entity.csproj"

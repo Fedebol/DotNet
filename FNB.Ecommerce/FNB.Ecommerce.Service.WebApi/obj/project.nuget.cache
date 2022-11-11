@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jU5RwjgPSXTSyWdX/0FVZlI9aLrn18T1KOeuM9/o3yd27wjLb0YN8mgmEwLcnxO5CILeVYTQ/GC1t8TIwfwKRQ==",
+  "dgSpecHash": "OvqQmCYbLcEcKlfuoM4AV2C5Sh0bS5Q1qpRmojlv4HJI4Ovi3jSK+zn6Z2hV6y36p5MnF2eH8scY8FlMADQMeg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Service.WebApi\\FNB.Ecommerce.Service.WebApi.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,8 @@
     "C:\\Users\\Fede\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\fluentassertions\\6.8.0\\fluentassertions.6.8.0.nupkg.sha512",
+    "C:\\Users\\Fede\\.nuget\\packages\\fluentvalidation\\11.3.0\\fluentvalidation.11.3.0.nupkg.sha512",
+    "C:\\Users\\Fede\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.3.0\\fluentvalidation.dependencyinjectionextensions.11.3.0.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.0\\microsoft.aspnetcore.authentication.jwtbearer.6.0.0.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0\\microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
@@ -35,7 +37,7 @@
     "C:\\Users\\Fede\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\Fede\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.15.1\\microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512",
+    "C:\\Users\\Fede\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

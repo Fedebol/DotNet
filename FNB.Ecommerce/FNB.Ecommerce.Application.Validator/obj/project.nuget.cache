@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "xToO6mcQr8PyDkwTcBGRU1GZU1bEqFyHDJlpk0Tj2kHPW+dAwfGTW7AO069o1Y+F6/TEkFM60I8HDg3N1VXOKQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Application.Validator\\FNB.Ecommerce.Application.Validator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Fede\\.nuget\\packages\\fluentvalidation\\11.3.0\\fluentvalidation.11.3.0.nupkg.sha512",
+    "C:\\Users\\Fede\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.3.0\\fluentvalidation.dependencyinjectionextensions.11.3.0.nupkg.sha512",
+    "C:\\Users\\Fede\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Domain.Entity\bin\Release\net6.0\FNB.Ecommerce.Domain.Entity.deps.json
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Domain.Entity\bin\Release\net6.0\FNB.Ecommerce.Domain.Entity.dll
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Domain.Entity\bin\Release\net6.0\FNB.Ecommerce.Domain.Entity.pdb
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Domain.Entity\obj\Release\net6.0\FNB.Ecommerce.Domain.Entity.csproj.AssemblyReference.cache
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Domain.Entity\obj\Release\net6.0\FNB.Ecommerce.Domain.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Domain.Entity\obj\Release\net6.0\FNB.Ecommerce.Domain.Entity.AssemblyInfoInputs.cache
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Domain.Entity\obj\Release\net6.0\FNB.Ecommerce.Domain.Entity.AssemblyInfo.cs
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Domain.Entity\obj\Release\net6.0\FNB.Ecommerce.Domain.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Domain.Entity\obj\Release\net6.0\FNB.Ecommerce.Domain.Entity.dll
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Domain.Entity\obj\Release\net6.0\refint\FNB.Ecommerce.Domain.Entity.dll
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Domain.Entity\obj\Release\net6.0\FNB.Ecommerce.Domain.Entity.pdb
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Domain.Entity\obj\Release\net6.0\ref\FNB.Ecommerce.Domain.Entity.dll

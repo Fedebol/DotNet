@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "9EX7k0XwccKJpXTa4iKIH+dc1bgk/Wu+nVsIvEIr9zxAe935mILcNBhidBRB4+xSPJpLlUvjqbjePsXyBNijnw==",
+  "dgSpecHash": "qt8eXq6Bq0OhmHkNkLiuiO9HU//eXD+zuL3DyTzi2lH2tQz/b0WyBOrBE81K/bRqLo/Oj/vN6L0PRU/s4nrHfw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Application.Main\\FNB.Ecommerce.Application.Main.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Fede\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\Fede\\.nuget\\packages\\fluentvalidation\\11.3.0\\fluentvalidation.11.3.0.nupkg.sha512",
+    "C:\\Users\\Fede\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.3.0\\fluentvalidation.dependencyinjectionextensions.11.3.0.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Fede\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",

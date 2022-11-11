@@ -1,0 +1,15 @@
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Transversal.Logging\bin\Release\net6.0\FNB.Ecommerce.Transversal.Logging.deps.json
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Transversal.Logging\bin\Release\net6.0\FNB.Ecommerce.Transversal.Logging.dll
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Transversal.Logging\bin\Release\net6.0\FNB.Ecommerce.Transversal.Logging.pdb
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Transversal.Logging\bin\Release\net6.0\FNB.Ecommerce.Transversal.Common.dll
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Transversal.Logging\bin\Release\net6.0\FNB.Ecommerce.Transversal.Common.pdb
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Transversal.Logging\obj\Release\net6.0\FNB.Ecommerce.Transversal.Logging.csproj.AssemblyReference.cache
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Transversal.Logging\obj\Release\net6.0\FNB.Ecommerce.Transversal.Logging.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Transversal.Logging\obj\Release\net6.0\FNB.Ecommerce.Transversal.Logging.AssemblyInfoInputs.cache
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Transversal.Logging\obj\Release\net6.0\FNB.Ecommerce.Transversal.Logging.AssemblyInfo.cs
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Transversal.Logging\obj\Release\net6.0\FNB.Ecommerce.Transversal.Logging.csproj.CoreCompileInputs.cache
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Transversal.Logging\obj\Release\net6.0\FNB.Ecommerce.Transversal.Logging.csproj.CopyComplete
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Transversal.Logging\obj\Release\net6.0\FNB.Ecommerce.Transversal.Logging.dll
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Transversal.Logging\obj\Release\net6.0\refint\FNB.Ecommerce.Transversal.Logging.dll
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Transversal.Logging\obj\Release\net6.0\FNB.Ecommerce.Transversal.Logging.pdb
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Transversal.Logging\obj\Release\net6.0\ref\FNB.Ecommerce.Transversal.Logging.dll

@@ -1,0 +1,12 @@
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Application.DTO\bin\Release\net6.0\FNB.Ecommerce.Application.DTO.deps.json
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Application.DTO\bin\Release\net6.0\FNB.Ecommerce.Application.DTO.dll
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Application.DTO\bin\Release\net6.0\FNB.Ecommerce.Application.DTO.pdb
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Application.DTO\obj\Release\net6.0\FNB.Ecommerce.Application.DTO.csproj.AssemblyReference.cache
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Application.DTO\obj\Release\net6.0\FNB.Ecommerce.Application.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Application.DTO\obj\Release\net6.0\FNB.Ecommerce.Application.DTO.AssemblyInfoInputs.cache
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Application.DTO\obj\Release\net6.0\FNB.Ecommerce.Application.DTO.AssemblyInfo.cs
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Application.DTO\obj\Release\net6.0\FNB.Ecommerce.Application.DTO.csproj.CoreCompileInputs.cache
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Application.DTO\obj\Release\net6.0\FNB.Ecommerce.Application.DTO.dll
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Application.DTO\obj\Release\net6.0\refint\FNB.Ecommerce.Application.DTO.dll
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Application.DTO\obj\Release\net6.0\FNB.Ecommerce.Application.DTO.pdb
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Application.DTO\obj\Release\net6.0\ref\FNB.Ecommerce.Application.DTO.dll
