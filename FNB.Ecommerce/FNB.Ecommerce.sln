@@ -39,7 +39,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FNB.Ecommerce.Service.WebAp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FNB.Ecommerce.Transversal.Logging", "FNB.Ecommerce.Transversal.Logging\FNB.Ecommerce.Transversal.Logging.csproj", "{73B75EB4-EEE2-440B-93F4-058D2D255382}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNB.Ecommerce.Application.Validator", "FNB.Ecommerce.Application.Validator\FNB.Ecommerce.Application.Validator.csproj", "{930AC650-D95F-4654-B406-DA89139B383A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FNB.Ecommerce.Application.Validator", "FNB.Ecommerce.Application.Validator\FNB.Ecommerce.Application.Validator.csproj", "{930AC650-D95F-4654-B406-DA89139B383A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prueba", "Prueba", "{FD2AEA8A-918D-492A-82A1-C2FF575CC885}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNB.Ecommerce.Application.Test", "FNB.Ecommerce.Application.Test\FNB.Ecommerce.Application.Test.csproj", "{F80B0F44-5FF8-4B32-9EB3-F3CF1E75465A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,6 +107,10 @@ Global
 		{930AC650-D95F-4654-B406-DA89139B383A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{930AC650-D95F-4654-B406-DA89139B383A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{930AC650-D95F-4654-B406-DA89139B383A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F80B0F44-5FF8-4B32-9EB3-F3CF1E75465A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F80B0F44-5FF8-4B32-9EB3-F3CF1E75465A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F80B0F44-5FF8-4B32-9EB3-F3CF1E75465A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F80B0F44-5FF8-4B32-9EB3-F3CF1E75465A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -122,6 +130,7 @@ Global
 		{DA88A585-ABA7-46CB-8772-0B56E91CA240} = {429D051C-9325-4625-94D7-61E665005FB2}
 		{73B75EB4-EEE2-440B-93F4-058D2D255382} = {50610B6E-4794-4DB9-A969-8A4C3ED80132}
 		{930AC650-D95F-4654-B406-DA89139B383A} = {F4B6B2BA-E7FB-4D6D-BD59-0797C3FEBFDF}
+		{F80B0F44-5FF8-4B32-9EB3-F3CF1E75465A} = {FD2AEA8A-918D-492A-82A1-C2FF575CC885}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B696F64C-095B-424C-9AC6-9569236A3F7A}
