@@ -1,3 +1,4 @@
+using FNB.Ecommerce.Application.Interface;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -19,11 +20,28 @@ namespace FNB.Ecommerce.Application.Test
                 .AddEnvironmentVariables();
             _configuration = builder.Build();
 
+            
+            var services = new ServiceCollection();
+            _scopeFactory = services.BuildServiceProvider().GetService<IServiceScopeFactory>();
+
         }
 
         [TestMethod]
-        public void TestMethod1()
+        public void Authenticate_CaundoNoSeEnvianParametros_RetornaMensajeErrorValidacion()
         {
+            using var scope = _scopeFactory.CreateScope();
+            var context = scope.ServiceProvider.GetService<IUsersApplication>();
+
+            var userName = string.Empty;
+            var password = string.Empty;
+            var expected = "Errores de validacion";
+
+            var result = context.Authenticate(userName, password);
+            var actual = result.Message;
+
+            Assert.AreEqual(expected, actual);
         }
+        
+        
     }
 }

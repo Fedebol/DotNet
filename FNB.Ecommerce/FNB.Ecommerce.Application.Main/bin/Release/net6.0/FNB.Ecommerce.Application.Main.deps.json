@@ -11,6 +11,7 @@
           "AutoMapper": "12.0.0",
           "FNB.Ecommerce.Application.DTO": "1.0.0",
           "FNB.Ecommerce.Application.Interface": "1.0.0",
+          "FNB.Ecommerce.Application.Validator": "1.0.0",
           "FNB.Ecommerce.Domain.Entity": "1.0.0",
           "FNB.Ecommerce.Domain.Interface": "1.0.0",
           "FNB.Ecommerce.Transversal.Common": "1.0.0"
@@ -30,7 +31,35 @@
           }
         }
       },
+      "FluentValidation/11.3.0": {
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.3.0.0"
+          }
+        }
+      },
+      "FluentValidation.DependencyInjectionExtensions/11.3.0": {
+        "dependencies": {
+          "FluentValidation": "11.3.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.3.0.0"
+          }
+        }
+      },
       "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18136"
+          }
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
       "System.Collections/4.3.0": {
@@ -139,6 +168,16 @@
           "FNB.Ecommerce.Application.Interface.dll": {}
         }
       },
+      "FNB.Ecommerce.Application.Validator/1.0.0": {
+        "dependencies": {
+          "FNB.Ecommerce.Application.DTO": "1.0.0",
+          "FluentValidation": "11.3.0",
+          "FluentValidation.DependencyInjectionExtensions": "11.3.0"
+        },
+        "runtime": {
+          "FNB.Ecommerce.Application.Validator.dll": {}
+        }
+      },
       "FNB.Ecommerce.Domain.Entity/1.0.0": {
         "runtime": {
           "FNB.Ecommerce.Domain.Entity.dll": {}
@@ -154,6 +193,7 @@
       },
       "FNB.Ecommerce.Transversal.Common/1.0.0": {
         "dependencies": {
+          "FluentValidation": "11.3.0",
           "System.Data.Common": "4.3.0"
         },
         "runtime": {
@@ -175,12 +215,33 @@
       "path": "automapper/12.0.0",
       "hashPath": "automapper.12.0.0.nupkg.sha512"
     },
+    "FluentValidation/11.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AlsfUkdIzSMA2v091K0gT1YjEwc7YR5pIA5yq7PnZivhoH3YETMhZbUySzsLbJKhj/E3ei6nEgtqdm00AVHXeg==",
+      "path": "fluentvalidation/11.3.0",
+      "hashPath": "fluentvalidation.11.3.0.nupkg.sha512"
+    },
+    "FluentValidation.DependencyInjectionExtensions/11.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C7gtDO79JVRtZob4K4VvabpXEEcvxH6Bh3MzS/TAjoGlOu1/m93+NrAwzjWxUmPFMq+lk7/at+zu2uM8rB1tXg==",
+      "path": "fluentvalidation.dependencyinjectionextensions/11.3.0",
+      "hashPath": "fluentvalidation.dependencyinjectionextensions.11.3.0.nupkg.sha512"
+    },
     "Microsoft.CSharp/4.7.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
       "path": "microsoft.csharp/4.7.0",
       "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8/CtASu80UIoyG+r8FstrmZW5GLtXxzoYpjj3jV0FKZCL5CiFgSH3pAmqut/dC68mu7N1bU6v0UtKKL3gCUQGQ==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/2.1.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
@@ -286,6 +347,11 @@
       "sha512": ""
     },
     "FNB.Ecommerce.Application.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FNB.Ecommerce.Application.Validator/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
