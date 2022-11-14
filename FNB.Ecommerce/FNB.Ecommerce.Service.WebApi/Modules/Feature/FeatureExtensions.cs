@@ -12,8 +12,8 @@ namespace FNB.Ecommerce.Service.WebApi.Modules.Feature
             services.AddCors(options => options.AddPolicy(myPolicy, builder => builder.WithOrigins()
                                                                                    .AllowAnyHeader()
                                                                                    .AllowAnyMethod()));
-            services.AddMvc()
-              .SetCompatibilityVersion(CompatibilityVersion.Latest);                                                                       
+            services.AddMvc();
+                                                                                    
 
             return services;
         }

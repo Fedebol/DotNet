@@ -41,7 +41,36 @@ namespace FNB.Ecommerce.Application.Test
 
             Assert.AreEqual(expected, actual);
         }
-        
-        
+
+        [TestMethod]
+        public void Authenticate_CaundoSeEnvianParametrosCorrectos_RetornaMensajeExito()
+        {
+            using var scope = _scopeFactory.CreateScope();
+            var context = scope.ServiceProvider.GetService<IUsersApplication>();
+
+            var userName = "UsuarioPrueba";
+            var password = "123456";
+            var expected = "Autenticacion Exitosa";
+
+            var result = context.Authenticate(userName, password);
+            var actual = result.Message;
+
+            Assert.AreEqual(expected, actual);
+        }
+        [TestMethod]
+        public void Authenticate_CaundoSeEnvianParametrosIncorrectos_RetornaMensajeUsuarioNoExiste()
+        {
+            using var scope = _scopeFactory.CreateScope();
+            var context = scope.ServiceProvider.GetService<IUsersApplication>();
+
+            var userName = "UsuarioPruebaFalla";
+            var password = "123456";
+            var expected = "Usuario no existe";
+
+            var result = context.Authenticate(userName, password);
+            var actual = result.Message;
+
+            Assert.AreEqual(expected, actual);
+        }
     }
 }

@@ -42,10 +42,10 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
-//builder.Services.AddFeature(this.configuratio);
-//builder.Services.AddInjection(this.Configuration);
+//builder.Services.AddFeature(this.configuration);
+//builder.Services.AddInjection(this.configuration);
 builder.Services.AddMapper();
-// builder.Services.AddAuthentication1(this.configuration);
+//builder.Services.AddAuthentication1(this.configuration);
 
 builder.Services.AddValidator();
 
