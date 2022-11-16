@@ -34,8 +34,11 @@ namespace FNB.Ecommerce.Service.WebApi.Controllers.v2
         public IActionResult Update(string customerId, [FromBody] CustomersDTO customersDTO)
         {
             var customerDTO = _customersApplication.Get(customerId);
+            if (customerDTO.Data == null)
+                return NotFound(customerDTO.Message);
             if (customersDTO == null)
                 return BadRequest();
+
             var response = _customersApplication.Update(customersDTO);
             if (response.IsSuccess)
                 return Ok(response);
@@ -86,9 +89,13 @@ namespace FNB.Ecommerce.Service.WebApi.Controllers.v2
             return BadRequest(response.Message);
         }
 
-        [HttpPut("UpdateAsync")]
-        public async Task<IActionResult> UpdateAsync([FromBody] CustomersDTO customersDTO)
+        [HttpPut("UpdateAsync/{customerId}")]
+        public async Task<IActionResult> UpdateAsync(string customerId, [FromBody] CustomersDTO customersDTO)
         {
+            var costumerDTO = await _customersApplication.GetAsync(customerId);
+            if (customersDTO == null)
+                return NotFound(costumerDTO.Message);
+
             if (customersDTO == null)
                 return BadRequest();
             var response = await _customersApplication.UpdateAsync(customersDTO);
