@@ -7,6 +7,8 @@ using Microsoft.OpenApi.Models;
 using System.Reflection;
 using System.IO;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.Extensions.Options;
+using Swashbuckle.AspNetCore.SwaggerGen;
 
 namespace FNB.Ecommerce.Service.WebApi.Modules.Swagger
 {
@@ -14,26 +16,11 @@ namespace FNB.Ecommerce.Service.WebApi.Modules.Swagger
     {
         public static IServiceCollection AddSwagger(this IServiceCollection services)
         {
+            services.AddTransient<IConfigureOptions<SwaggerGenOptions>, ConfigureSwaggerOptions>();
+
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo
-                {
-
-                    Title = "FNB Technology Service API Market",
-                    Description = "A simple example ASP.NET Core Web API",
-                    Version = "v1",
-                    Contact = new OpenApiContact
-                    {
-                        Name = "Federico Boldrini",
-                        Url = new Uri("https://example.com/"),
-                        Email = "",
-                    },
-                    License = new OpenApiLicense
-                    {
-                        Name = "Use under LICX",
-                        Url = new Uri("https://example.com/license"),
-                    }
-                });
+               
 
                 var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
                 var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);

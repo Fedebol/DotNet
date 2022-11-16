@@ -15,6 +15,12 @@ namespace FNB.Ecommerce.Service.WebApi.Modules.Versioning
                 o.ApiVersionReader = new QueryStringApiVersionReader("api-version");
 
             });
+
+            services.AddVersionedApiExplorer(options =>
+            {
+                options.GroupNameFormat = "'v' VVV";
+            });
+            return services;
         }
 
     }
