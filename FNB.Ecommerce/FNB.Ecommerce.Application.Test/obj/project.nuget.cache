@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Ujs0XrC3XwOTLBMmeGnrBvNIMZC2FNtaMBcCLBHNKbAutiZ6TKIJfrbduxEZ9HVc9PE1bxaFd7D3ls0omjE+cg==",
+  "dgSpecHash": "Xb5/si66NXXTmRc+8j7LgqBcNrICxrdQQ80qmXZPorXT5k0vhgkOlabi7NsubXAIIVg8blzBaD439CKSWvC+Ng==",
   "success": true,
   "projectFilePath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Application.Test\\FNB.Ecommerce.Application.Test.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,8 @@
     "C:\\Users\\Fede\\.nuget\\packages\\fluentvalidation\\11.3.0\\fluentvalidation.11.3.0.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.3.0\\fluentvalidation.dependencyinjectionextensions.11.3.0.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.0\\microsoft.aspnetcore.authentication.jwtbearer.6.0.0.nupkg.sha512",
+    "C:\\Users\\Fede\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.0.0\\microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
+    "C:\\Users\\Fede\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning.apiexplorer\\5.0.0\\microsoft.aspnetcore.mvc.versioning.apiexplorer.5.0.0.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\microsoft.codecoverage\\17.4.0\\microsoft.codecoverage.17.4.0.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0\\microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
