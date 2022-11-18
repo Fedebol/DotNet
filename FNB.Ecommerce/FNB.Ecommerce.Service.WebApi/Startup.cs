@@ -11,6 +11,7 @@ using FNB.Ecommerce.Service.WebApi.Modules.Injection;
 using FNB.Ecommerce.Service.WebApi.Modules.Validator;
 using FNB.Ecommerce.Service.WebApi.Modules.Versioning;
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
+using HealthChecks.UI.Client;
 
 namespace Pacagroup.Ecommerce.Services.WebApi
 {
@@ -65,6 +66,12 @@ namespace Pacagroup.Ecommerce.Services.WebApi
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+                endpoints.MapHealthChecksUI();
+                endpoints.MapHealthChecks("/health", new Microsoft.AspNetCore.Diagnostics.HealthChecks.HealthCheckOptions
+                {
+                    Predicate = _ => true,
+                    ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
+                }) ;
             });
         }
     }
