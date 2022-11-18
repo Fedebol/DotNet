@@ -7,9 +7,9 @@ using Microsoft.AspNetCore.Authorization;
 namespace FNB.Ecommerce.Service.WebApi.Controllers.v1
 {
     [Authorize]
-    [Route("api/[controller]")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     [ApiController]
-    [ApiVersion("1.0")]
+    [ApiVersion("1.0", Deprecated = true)]
     public class CustomersController : ControllerBase
     {
         private readonly ICustomersApplication _customersApplication;
