@@ -1,10 +1,8 @@
-﻿using FNB.Ecommerce.Domain.Entity;
+﻿using Dapper;
+using FNB.Ecommerce.Domain.Entity;
+using FNB.Ecommerce.Infrastructure.Data;
 using FNB.Ecommerce.Infrastructure.Interface;
-using FNB.Ecommerce.Transversal.Common;
-using Dapper;
 using System.Data;
-using System.Threading.Tasks;
-using System.Collections.Generic;
 
 
 
@@ -13,16 +11,17 @@ namespace FNB.Ecommerce.Infrastructure.Repository
 {
     public class CustomersRepository : ICustomersRepository
     {
-        private readonly IConnectionFactory _connectionFactory;
-        public CustomersRepository(IConnectionFactory connectionFactory)
+        private readonly DapperContext _context;
+
+        public CustomersRepository(DapperContext context)
         {
-            _connectionFactory = connectionFactory;
+            _context = context;
         }
         #region Metodos Sincronos
 
         public bool Insert(Customers customers)
         {
-            using (var connection = _connectionFactory.GetConnection)
+            using (var connection = _context.CreateConnection())
             {
                 var query = "CustomersInsert";
                 var parameters = new DynamicParameters();
@@ -45,7 +44,7 @@ namespace FNB.Ecommerce.Infrastructure.Repository
 
         public bool Update(Customers customers)
         {
-            using (var connection = _connectionFactory.GetConnection)
+            using (var connection = _context.CreateConnection())
             {
 
                 var query = "CustomersUpdate";
@@ -69,7 +68,7 @@ namespace FNB.Ecommerce.Infrastructure.Repository
 
         public bool Delete(string customerId)
         {
-            using (var connection = _connectionFactory.GetConnection)
+            using (var connection = _context.CreateConnection())
             {
 
                 var query = "CustomerDlete";
@@ -82,7 +81,7 @@ namespace FNB.Ecommerce.Infrastructure.Repository
 
         public Customers Get(string customerId)
         {
-            using (var connection = _connectionFactory.GetConnection)
+            using (var connection = _context.CreateConnection())
             {
                 var query = "CustomersGetById";
                 var parameters = new DynamicParameters();
@@ -94,7 +93,7 @@ namespace FNB.Ecommerce.Infrastructure.Repository
 
         public IEnumerable<Customers> GetAll()
         {
-            using (var connection = _connectionFactory.GetConnection)
+            using (var connection = _context.CreateConnection())
             {
                 var query = "CustomersList";
                 var customer = connection.Query<Customers>(query, commandType: CommandType.StoredProcedure);
@@ -110,7 +109,7 @@ namespace FNB.Ecommerce.Infrastructure.Repository
 
         public async Task<bool> InsertAsync(Customers customers)
         {
-            using (var connection = _connectionFactory.GetConnection)
+            using (var connection = _context.CreateConnection())
             {
                 var query = "CustomersInsert";
                 var parameters = new DynamicParameters();
@@ -133,7 +132,7 @@ namespace FNB.Ecommerce.Infrastructure.Repository
 
         public async Task<bool> UpdateAsync(Customers customers)
         {
-            using (var connection = _connectionFactory.GetConnection)
+            using (var connection = _context.CreateConnection())
             {
 
                 var query = "CustomersUpdate";
@@ -157,7 +156,7 @@ namespace FNB.Ecommerce.Infrastructure.Repository
 
         public async Task<bool> DeleteAsync(string customerId)
         {
-            using (var connection = _connectionFactory.GetConnection)
+            using (var connection = _context.CreateConnection())
             {
 
                 var query = "CustomersDlete";
@@ -170,7 +169,7 @@ namespace FNB.Ecommerce.Infrastructure.Repository
 
         public async Task<Customers> GetAsync(string customerId)
         {
-            using (var connection = _connectionFactory.GetConnection)
+            using (var connection = _context.CreateConnection())
             {
                 var query = "CustomersGetById";
                 var parameters = new DynamicParameters();
@@ -182,7 +181,7 @@ namespace FNB.Ecommerce.Infrastructure.Repository
 
         public async Task<IEnumerable<Customers>> GetAllAsync()
         {
-            using (var connection = _connectionFactory.GetConnection)
+            using (var connection = _context.CreateConnection())
             {
                 var query = "CustomersList";
                 var customer = await connection.QueryAsync<Customers>(query, commandType: CommandType.StoredProcedure);

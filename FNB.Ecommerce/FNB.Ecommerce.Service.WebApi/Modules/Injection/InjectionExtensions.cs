@@ -15,7 +15,7 @@ namespace FNB.Ecommerce.Service.WebApi.Modules.Injection
         public static IServiceCollection AddInjection ( this IServiceCollection services, IConfiguration configuration)
         {
             services.AddSingleton<IConfiguration>();
-            services.AddSingleton<IConnectionFactory, ConnectionFactory>();
+            services.AddSingleton<DapperContext>();
             services.AddScoped<ICustomersApplication, CustomersApplication>();
             services.AddScoped<ICustomersDomain, CustomersDomain>();
             services.AddScoped<ICustomersRepository, CustomersRepository>();

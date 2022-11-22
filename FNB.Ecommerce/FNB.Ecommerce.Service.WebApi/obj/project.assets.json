@@ -1987,7 +1987,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "FNB.Ecommerce.Transversal.Common": "1.0.0",
           "Microsoft.Extensions.Configuration": "7.0.0",
           "System.Data.SqlClient": "4.8.5"
         },
@@ -2017,8 +2016,7 @@
         "dependencies": {
           "Dapper": "2.0.123",
           "FNB.Ecommerce.Infrastructure.Data": "1.0.0",
-          "FNB.Ecommerce.Infrastructure.Interface": "1.0.0",
-          "FNB.Ecommerce.Transversal.Common": "1.0.0"
+          "FNB.Ecommerce.Infrastructure.Interface": "1.0.0"
         },
         "compile": {
           "bin/placeholder/FNB.Ecommerce.Infrastruture.Repository.dll": {}

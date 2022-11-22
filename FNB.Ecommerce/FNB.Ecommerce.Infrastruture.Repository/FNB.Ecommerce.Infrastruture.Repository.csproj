@@ -13,7 +13,6 @@
   <ItemGroup>
     <ProjectReference Include="..\FNB.Ecommerce.Infraestructura.Data\FNB.Ecommerce.Infrastructure.Data.csproj" />
     <ProjectReference Include="..\FNB.Ecommerce.Infraestructure.Interface\FNB.Ecommerce.Infrastructure.Interface.csproj" />
-    <ProjectReference Include="..\FNB.Ecommerce.Transversal.Common\FNB.Ecommerce.Transversal.Common.csproj" />
   </ItemGroup>
 
 </Project>

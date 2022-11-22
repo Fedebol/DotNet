@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CeaWJUh+x6FCHmkNjGOI82WT+7Bn4CDOimVXE3vRuQQ+UKbG0trhOt/Ax+cF7W0YlmghdRJDeV99UJP1/Fqg5Q==",
+  "dgSpecHash": "LiVvFmEuUXuofdk8QKB8BoohW4YtDIO/BCJIbhyvcOhTgngqI+atmOKNH2WJxzFFzcZpreW62GtA29mBSOCrcQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Transversal.Logging\\FNB.Ecommerce.Transversal.Logging.csproj",
   "expectedPackageFiles": [
