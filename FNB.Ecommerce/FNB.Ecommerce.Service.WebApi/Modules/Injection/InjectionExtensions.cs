@@ -5,6 +5,7 @@ using FNB.Ecommerce.Domain.Interface;
 using FNB.Ecommerce.Infrastructure.Data;
 using FNB.Ecommerce.Infrastructure.Interface;
 using FNB.Ecommerce.Infrastructure.Repository;
+using FNB.Ecommerce.Infrastruture.Repository;
 using FNB.Ecommerce.Transversal.Common;
 using FNB.Ecommerce.Transversal.Logging;
 
@@ -23,6 +24,7 @@ namespace FNB.Ecommerce.Service.WebApi.Modules.Injection
             services.AddScoped<IUsersDomain, UsersDomain>();
             services.AddScoped<IUsersRepository, UsersRepository>();
             services.AddScoped(typeof(IAppLogger<>), typeof(LoggerAdapter<>));
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             return services;
         }
