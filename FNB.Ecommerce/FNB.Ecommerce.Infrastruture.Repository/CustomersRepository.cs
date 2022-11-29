@@ -102,6 +102,27 @@ namespace FNB.Ecommerce.Infrastructure.Repository
             }
         }
 
+        public IEnumerable<Customers> GetAllWithPagination(int pageNumber, int pageSize)
+        {
+            using var connection = _context.CreateConnection();
+            var query = "CustomersListWithPagination";
+            var parameters = new DynamicParameters();
+            parameters.Add("PageNumber", pageNumber);
+            parameters.Add("PageSize", pageSize);
+
+            var customers = connection.Query<Customers>(query, param: parameters, commandType: CommandType.StoredProcedure);
+            return customers;
+        }
+
+        public int Count()
+        {
+            using var connection = _context.CreateConnection();
+            var query = "Select Count(*) from Customers";
+
+            var count = connection.ExecuteScalar<int>(query, commandType: CommandType.Text);
+            return count;
+        }
+
         #endregion
 
         #region Metodos Asincronos
@@ -188,6 +209,18 @@ namespace FNB.Ecommerce.Infrastructure.Repository
                 var customer = await connection.QueryAsync<Customers>(query, commandType: CommandType.StoredProcedure);
                 return customer;
             }
+        }
+
+       
+
+        public Task<IEnumerable<Customers>> GetAllWithPaginationAsync(int pageNumber, int pageSize)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<int> CountAsync()
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
