@@ -213,14 +213,25 @@ namespace FNB.Ecommerce.Infrastructure.Repository
 
        
 
-        public Task<IEnumerable<Customers>> GetAllWithPaginationAsync(int pageNumber, int pageSize)
+        public async Task<IEnumerable<Customers>> GetAllWithPaginationAsync(int pageNumber, int pageSize)
         {
-            throw new NotImplementedException();
+            using var connection = _context.CreateConnection();
+            var query = "CustomersListWithPagination";
+            var parameters = new DynamicParameters();
+            parameters.Add("PageNumber", pageNumber);
+            parameters.Add("PageSize", pageSize);
+
+            var customers = await connection.QueryAsync<Customers>(query, param: parameters, commandType: CommandType.StoredProcedure);
+            return customers;
         }
 
-        public Task<int> CountAsync()
+        public async Task<int> CountAsync()
         {
-            throw new NotImplementedException();
+            using var connection = _context.CreateConnection();
+            var query = "Select Count(*) from Customers";
+
+            var count = await connection.ExecuteScalarAsync<int>(query, commandType: CommandType.Text);
+            return count;
         }
 
         #endregion

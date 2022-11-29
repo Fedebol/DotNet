@@ -75,6 +75,15 @@ namespace FNB.Ecommerce.Service.WebApi.Controllers.v2
                 return Ok(response);
             return BadRequest(response.Message);
         }
+
+        [HttpGet("GetAllWithPagination")]
+        public IActionResult GetAllWithPagination([FromQuery] int pageNumber, int pageSize)
+        {
+            var response = _customersApplication.GetAllWithPagination(pageNumber, pageSize);
+            if (response.IsSuccess)
+                return Ok(response);
+            return BadRequest(response.Message);
+        }
         #endregion
 
         #region"metodos asincronos"
@@ -130,6 +139,15 @@ namespace FNB.Ecommerce.Service.WebApi.Controllers.v2
         public async Task<IActionResult> GetAllAsync()
         {
             var response = await _customersApplication.GetAllAsync();
+            if (response.IsSuccess)
+                return Ok(response);
+            return BadRequest(response.Message);
+        }
+
+        [HttpGet("GetAllWithPaginationAsync")]
+        public async Task<IActionResult> GetAllWithPaginationAsync([FromQuery] int pageNumber, int pageSize)
+        {
+            var response = await _customersApplication.GetAllWithPaginationAsync(pageNumber, pageSize);
             if (response.IsSuccess)
                 return Ok(response);
             return BadRequest(response.Message);
