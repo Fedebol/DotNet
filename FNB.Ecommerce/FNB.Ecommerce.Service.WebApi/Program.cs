@@ -1,81 +1,59 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
-using AutoMapper;
-using FNB.Ecommerce.Transversal.Common;
-using FNB.Ecommerce.Transversal.Mapper;
-using FNB.Ecommerce.Infrastructure.Data;
-using FNB.Ecommerce.Infrastructure.Repository;
-using FNB.Ecommerce.Infrastructure.Interface;
-using FNB.Ecommerce.Domain.Interface;
-using FNB.Ecommerce.Domain.Core;
-using FNB.Ecommerce.Application.Interface;
-using FNB.Ecommerce.Application.Main;
-using Swashbuckle.AspNetCore.Swagger;
-using Microsoft.OpenApi.Models;
-using System.Reflection;
-using FNB.Ecommerce.Service.WebApi.Helpers;
-using System.Text;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
-using Microsoft.FeatureManagement.FeatureFilters;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using FNB.Ecommerce.Transversal.Logging;
-using FNB.Ecommerce.Service.WebApi.Modules.Swagger;
-using FNB.Ecommerce.Service.WebApi.Modules.Authentication;
-using FluentAssertions.Common;
-using FNB.Ecommerce.Service.WebApi.Modules.Mapper;
+
 using FNB.Ecommerce.Service.WebApi.Modules.Feature;
 using FNB.Ecommerce.Service.WebApi.Modules.Injection;
+using FNB.Ecommerce.Service.WebApi.Modules.Mapper;
+using FNB.Ecommerce.Service.WebApi.Modules.Swagger;
 using FNB.Ecommerce.Service.WebApi.Modules.Validator;
-using System.Configuration;
-
+using FNB.Ecommerce.Service.WebApi.Modules.Versioning;
+using FNB.Ecommerce.Service.WebApi.Modules.Authentication;
+using Microsoft.Extensions.DependencyInjection;
+using FNB.Ecommerce.Service.WebApi.Modules.HealthCheck;
+using Microsoft.AspNetCore.Mvc.ApiExplorer;
+using HealthChecks.UI.Client;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddControllers();
-builder.Services.AddFeature(this.configuration);
-builder.Services.AddInjection(this.configuration);
-builder.Services.AddMapper();
-builder.Services.AddAuthentication1(this.configuration);
-
-builder.Services.AddValidator();
-
-
-
-
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+
+builder.Services.AddMapper();
+builder.Services.AddFeature(builder.Configuration);
+builder.Services.AddInjection(builder.Configuration);
+builder.Services.AddAuthentication(builder.Configuration);
+builder.Services.AddVersioning();
 builder.Services.AddSwagger();
+builder.Services.AddValidator();
+builder.Services.AddHealthCheck(builder.Configuration);
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// configure the http request pipeline
 if (app.Environment.IsDevelopment())
 {
+    app.UseDeveloperExceptionPage();
     app.UseSwagger();
     app.UseSwaggerUI(c =>
     {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "My Api Ecommerce V1");
+        // build a swagger endpoint for each discovered API version
+        var provider = app.Services.GetRequiredService<IApiVersionDescriptionProvider>();
+        foreach (var description in provider.ApiVersionDescriptions)
+        {
+            c.SwaggerEndpoint($"/swagger/{description.GroupName}/swagger.json", description.GroupName.ToUpperInvariant());
+        }
     });
 }
 
-
-
+app.UseHttpsRedirection();
+app.UseCors("policyApiEcommerce");
 app.UseAuthentication();
-
 app.UseAuthorization();
-
 app.MapControllers();
+app.MapHealthChecksUI();
+app.MapHealthChecks("/health", new Microsoft.AspNetCore.Diagnostics.HealthChecks.HealthCheckOptions
+{
+    Predicate = _ => true,
+    ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
+});
 
 app.Run();
+

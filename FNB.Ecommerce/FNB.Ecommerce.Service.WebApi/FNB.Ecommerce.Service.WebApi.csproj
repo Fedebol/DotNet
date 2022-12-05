@@ -42,7 +42,8 @@
     <ProjectReference Include="..\FNB.Ecommerce.Domain.Interface\FNB.Ecommerce.Domain.Interface.csproj" />
     <ProjectReference Include="..\FNB.Ecommerce.Infraestructura.Data\FNB.Ecommerce.Infrastructure.Data.csproj" />
     <ProjectReference Include="..\FNB.Ecommerce.Infraestructure.Interface\FNB.Ecommerce.Infrastructure.Interface.csproj" />
-    <ProjectReference Include="..\FNB.Ecommerce.Infrastruture.Repository\FNB.Ecommerce.Infrastruture.Repository.csproj" />
+    <ProjectReference Include="..\FNB.Ecommerce.Infrastructure.Repository\FNB.Ecommerce.Infrastructure.Repository.csproj" />
+    <ProjectReference Include="..\FNB.Ecommerce.Infrastruture.Repository\FNB.Ecommerce.Infrastructure.Repository.csproj" />
     <ProjectReference Include="..\FNB.Ecommerce.Transversal.Common\FNB.Ecommerce.Transversal.Common.csproj" />
     <ProjectReference Include="..\FNB.Ecommerce.Transversal.Logging\FNB.Ecommerce.Transversal.Logging.csproj" />
     <ProjectReference Include="..\FNB.Ecommerce.Transvredal.Mapper\FNB.Ecommerce.Transversal.Mapper.csproj" />

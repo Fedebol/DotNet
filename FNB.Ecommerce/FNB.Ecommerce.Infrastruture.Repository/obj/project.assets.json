@@ -706,9 +706,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infrastruture.Repository\\FNB.Ecommerce.Infrastruture.Repository.csproj",
-      "projectName": "FNB.Ecommerce.Infrastruture.Repository",
-      "projectPath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infrastruture.Repository\\FNB.Ecommerce.Infrastruture.Repository.csproj",
+      "projectUniqueName": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infrastruture.Repository\\FNB.Ecommerce.Infrastructure.Repository.csproj",
+      "projectName": "FNB.Ecommerce.Infrastructure.Repository",
+      "projectPath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infrastruture.Repository\\FNB.Ecommerce.Infrastructure.Repository.csproj",
       "packagesPath": "C:\\Users\\Fede\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infrastruture.Repository\\obj\\",
       "projectStyle": "PackageReference",

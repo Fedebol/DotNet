@@ -57,7 +57,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -66,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -200,7 +201,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -209,7 +211,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -557,7 +559,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -566,7 +569,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -704,12 +707,12 @@
         }
       }
     },
-    "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infrastruture.Repository\\FNB.Ecommerce.Infrastruture.Repository.csproj": {
+    "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infrastruture.Repository\\FNB.Ecommerce.Infrastructure.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infrastruture.Repository\\FNB.Ecommerce.Infrastruture.Repository.csproj",
-        "projectName": "FNB.Ecommerce.Infrastruture.Repository",
-        "projectPath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infrastruture.Repository\\FNB.Ecommerce.Infrastruture.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infrastruture.Repository\\FNB.Ecommerce.Infrastructure.Repository.csproj",
+        "projectName": "FNB.Ecommerce.Infrastructure.Repository",
+        "projectPath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infrastruture.Repository\\FNB.Ecommerce.Infrastructure.Repository.csproj",
         "packagesPath": "C:\\Users\\Fede\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infrastruture.Repository\\obj\\",
         "projectStyle": "PackageReference",
@@ -833,8 +836,11 @@
               "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infraestructure.Interface\\FNB.Ecommerce.Infrastructure.Interface.csproj": {
                 "projectPath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infraestructure.Interface\\FNB.Ecommerce.Infrastructure.Interface.csproj"
               },
-              "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infrastruture.Repository\\FNB.Ecommerce.Infrastruture.Repository.csproj": {
-                "projectPath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infrastruture.Repository\\FNB.Ecommerce.Infrastruture.Repository.csproj"
+              "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infrastructure.Repository\\FNB.Ecommerce.Infrastructure.Repository.csproj": {
+                "projectPath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infrastructure.Repository\\FNB.Ecommerce.Infrastructure.Repository.csproj"
+              },
+              "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infrastruture.Repository\\FNB.Ecommerce.Infrastructure.Repository.csproj": {
+                "projectPath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infrastruture.Repository\\FNB.Ecommerce.Infrastructure.Repository.csproj"
               },
               "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Transversal.Common\\FNB.Ecommerce.Transversal.Common.csproj": {
                 "projectPath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Transversal.Common\\FNB.Ecommerce.Transversal.Common.csproj"

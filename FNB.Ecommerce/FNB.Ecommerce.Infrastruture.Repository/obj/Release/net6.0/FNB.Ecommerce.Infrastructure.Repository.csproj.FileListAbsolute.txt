@@ -1,0 +1,5 @@
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Infrastruture.Repository\obj\Release\net6.0\FNB.Ecommerce.Infrastructure.Repository.csproj.AssemblyReference.cache
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Infrastruture.Repository\obj\Release\net6.0\FNB.Ecommerce.Infrastructure.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Infrastruture.Repository\obj\Release\net6.0\FNB.Ecommerce.Infrastructure.Repository.AssemblyInfoInputs.cache
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Infrastruture.Repository\obj\Release\net6.0\FNB.Ecommerce.Infrastructure.Repository.AssemblyInfo.cs
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Infrastruture.Repository\obj\Release\net6.0\FNB.Ecommerce.Infrastructure.Repository.csproj.CoreCompileInputs.cache

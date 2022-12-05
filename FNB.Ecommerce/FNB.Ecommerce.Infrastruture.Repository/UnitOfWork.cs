@@ -1,6 +1,6 @@
 ﻿using FNB.Ecommerce.Infrastructure.Interface;
 
-namespace FNB.Ecommerce.Infrastruture.Repository
+namespace FNB.Ecommerce.Infrastructure.Repository
 {
     public class UnitOfWork : IUnitOfWork
     {

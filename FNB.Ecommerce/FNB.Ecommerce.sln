@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FNB.Ecommerce.Infrastructur
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FNB.Ecommerce.Domain.Entity", "FNB.Ecommerce.Domain.Entity\FNB.Ecommerce.Domain.Entity.csproj", "{9A942C37-474E-4556-9CC3-28A6E9C090ED}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FNB.Ecommerce.Infrastruture.Repository", "FNB.Ecommerce.Infrastruture.Repository\FNB.Ecommerce.Infrastruture.Repository.csproj", "{3424A591-8E98-45A1-B5E1-8BA7BA5948EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FNB.Ecommerce.Infrastructure.Repository", "FNB.Ecommerce.Infrastruture.Repository\FNB.Ecommerce.Infrastructure.Repository.csproj", "{3424A591-8E98-45A1-B5E1-8BA7BA5948EC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FNB.Ecommerce.Domain.Interface", "FNB.Ecommerce.Domain.Interface\FNB.Ecommerce.Domain.Interface.csproj", "{32AF79C1-6AA1-4A66-AF19-DA5D7840C98A}"
 EndProject
@@ -43,7 +43,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FNB.Ecommerce.Application.V
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prueba", "Prueba", "{FD2AEA8A-918D-492A-82A1-C2FF575CC885}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNB.Ecommerce.Application.Test", "FNB.Ecommerce.Application.Test\FNB.Ecommerce.Application.Test.csproj", "{F80B0F44-5FF8-4B32-9EB3-F3CF1E75465A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FNB.Ecommerce.Application.Test", "FNB.Ecommerce.Application.Test\FNB.Ecommerce.Application.Test.csproj", "{F80B0F44-5FF8-4B32-9EB3-F3CF1E75465A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

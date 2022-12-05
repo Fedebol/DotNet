@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uTtj6tr4NSlgGi696a5B7uPysbfDjg5cdFE/AEsMZAkDy75I5FYGCryJH8dJmnyQZXmCE/j0jEW9FDQ9mrEaDg==",
+  "dgSpecHash": "+LMrVecENgdFUhnR+Uu10Kj/7M5DptUBv9dXcL0tlw8ynle+XMon7epsId05qF5mqRAvf6Tl937UMwGO5bHCTg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infrastruture.Repository\\FNB.Ecommerce.Infrastruture.Repository.csproj",
+  "projectFilePath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infrastruture.Repository\\FNB.Ecommerce.Infrastructure.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Fede\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",

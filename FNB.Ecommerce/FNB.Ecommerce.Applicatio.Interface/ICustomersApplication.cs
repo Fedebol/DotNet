@@ -33,7 +33,7 @@ namespace FNB.Ecommerce.Application.Interface
         Task<Response<CustomersDTO>>  GetAsync(string customerId);
         Task <Response<IEnumerable<CustomersDTO>>> GetAllAsync();
         Task<ResponsePagination<IEnumerable<CustomersDTO>>> GetAllWithPaginationAsync(int pageNumber, int pageSize);
->
+
         #endregion
 
     }

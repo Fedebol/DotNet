@@ -5,7 +5,6 @@ using FNB.Ecommerce.Domain.Interface;
 using FNB.Ecommerce.Infrastructure.Data;
 using FNB.Ecommerce.Infrastructure.Interface;
 using FNB.Ecommerce.Infrastructure.Repository;
-using FNB.Ecommerce.Infrastruture.Repository;
 using FNB.Ecommerce.Transversal.Common;
 using FNB.Ecommerce.Transversal.Logging;
 

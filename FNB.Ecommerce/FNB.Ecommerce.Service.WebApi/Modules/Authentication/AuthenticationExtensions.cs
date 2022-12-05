@@ -11,7 +11,7 @@ namespace FNB.Ecommerce.Service.WebApi.Modules.Authentication
 {
     public static class AuthenticationExtensions
     {
-        public static IServiceCollection AddAuthentication1(this IServiceCollection services, IConfiguration configuration)
+        public static IServiceCollection AddAuthentication(this IServiceCollection services, IConfiguration configuration)
         {
             var appSettingsSection = configuration.GetSection("Config");
             services.Configure<AppSettings>(appSettingsSection);
