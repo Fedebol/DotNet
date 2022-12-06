@@ -30,6 +30,16 @@ namespace FNB.Ecommerce.Infrastructure.Repository
             }
         }
 
+        public int Count()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<int> CountAsync()
+        {
+            throw new NotImplementedException();
+        }
+
         public bool Delete(string id)
         {
             throw new NotImplementedException();
@@ -51,6 +61,16 @@ namespace FNB.Ecommerce.Infrastructure.Repository
         }
 
         public Task<IEnumerable<Users>> GetAllAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Users> GetAllWithPagination(int pageNumber, int pageSize)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<IEnumerable<Users>> GetAllWithPaginationAsync(int pageNumber, int pageSize)
         {
             throw new NotImplementedException();
         }

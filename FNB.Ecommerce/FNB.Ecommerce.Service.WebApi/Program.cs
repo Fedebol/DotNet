@@ -1,15 +1,14 @@
 
+using FNB.Ecommerce.Service.WebApi.Modules.Authentication;
 using FNB.Ecommerce.Service.WebApi.Modules.Feature;
+using FNB.Ecommerce.Service.WebApi.Modules.HealthCheck;
 using FNB.Ecommerce.Service.WebApi.Modules.Injection;
 using FNB.Ecommerce.Service.WebApi.Modules.Mapper;
 using FNB.Ecommerce.Service.WebApi.Modules.Swagger;
 using FNB.Ecommerce.Service.WebApi.Modules.Validator;
 using FNB.Ecommerce.Service.WebApi.Modules.Versioning;
-using FNB.Ecommerce.Service.WebApi.Modules.Authentication;
-using Microsoft.Extensions.DependencyInjection;
-using FNB.Ecommerce.Service.WebApi.Modules.HealthCheck;
-using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using HealthChecks.UI.Client;
+using Microsoft.AspNetCore.Mvc.ApiExplorer;
 
 var builder = WebApplication.CreateBuilder(args);
 
