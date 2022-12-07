@@ -1,14 +1,11 @@
 C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Infraestructura.Data\bin\Debug\net6.0\FNB.Ecommerce.Infrastructure.Data.deps.json
 C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Infraestructura.Data\bin\Debug\net6.0\FNB.Ecommerce.Infrastructure.Data.dll
 C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Infraestructura.Data\bin\Debug\net6.0\FNB.Ecommerce.Infrastructure.Data.pdb
-C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Infraestructura.Data\bin\Debug\net6.0\FNB.Ecommerce.Transversal.Common.dll
-C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Infraestructura.Data\bin\Debug\net6.0\FNB.Ecommerce.Transversal.Common.pdb
 C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Infraestructura.Data\obj\Debug\net6.0\FNB.Ecommerce.Infrastructure.Data.csproj.AssemblyReference.cache
 C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Infraestructura.Data\obj\Debug\net6.0\FNB.Ecommerce.Infrastructure.Data.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Infraestructura.Data\obj\Debug\net6.0\FNB.Ecommerce.Infrastructure.Data.AssemblyInfoInputs.cache
 C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Infraestructura.Data\obj\Debug\net6.0\FNB.Ecommerce.Infrastructure.Data.AssemblyInfo.cs
 C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Infraestructura.Data\obj\Debug\net6.0\FNB.Ecommerce.Infrastructure.Data.csproj.CoreCompileInputs.cache
-C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Infraestructura.Data\obj\Debug\net6.0\FNB.Ecommerce.Infrastructure.Data.csproj.CopyComplete
 C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Infraestructura.Data\obj\Debug\net6.0\FNB.Ecommerce.Infrastructure.Data.dll
 C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Infraestructura.Data\obj\Debug\net6.0\refint\FNB.Ecommerce.Infrastructure.Data.dll
 C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Infraestructura.Data\obj\Debug\net6.0\FNB.Ecommerce.Infrastructure.Data.pdb

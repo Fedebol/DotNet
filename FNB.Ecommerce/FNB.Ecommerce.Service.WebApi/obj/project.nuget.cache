@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XPUR8RDa4mVtu/Ua859z5ohh+NnDAZzLMBiTohvlq7ffkJcDvi9Uui/MVKw61kqQKvDyTcnbJsj0TtB3FkOlBA==",
+  "dgSpecHash": "aq7KC9+rE1L7owcFeXjsm7IgTR0v1yvVGW6WA2WSiJyU42Qu2R0gJHQwGAwQG8OHbiIk1io0ORaB4dqXOXn7Lw==",
   "success": false,
   "projectFilePath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Service.WebApi\\FNB.Ecommerce.Service.WebApi.csproj",
   "expectedPackageFiles": [
@@ -13,7 +13,6 @@
     "C:\\Users\\Fede\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",
-    "C:\\Users\\Fede\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\fluentassertions\\6.8.0\\fluentassertions.6.8.0.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\fluentvalidation\\11.3.0\\fluentvalidation.11.3.0.nupkg.sha512",
     "C:\\Users\\Fede\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.3.0\\fluentvalidation.dependencyinjectionextensions.11.3.0.nupkg.sha512",
@@ -143,8 +142,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "No se encuentra el proyecto \"C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infrastructure.Repository\\FNB.Ecommerce.Infrastructure.Repository.csproj\". Compruebe que la referencia al proyecto sea válida y que exista el archivo de proyecto.",
-      "libraryId": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infrastructure.Repository\\FNB.Ecommerce.Infrastructure.Repository.csproj",
+      "message": "No se encuentra el proyecto \"C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infraestructure.Repository\\FNB.Ecommerce.Infrastructure.Repository.csproj\". Compruebe que la referencia al proyecto sea válida y que exista el archivo de proyecto.",
+      "libraryId": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infraestructure.Repository\\FNB.Ecommerce.Infrastructure.Repository.csproj",
       "targetGraphs": [
         "net6.0"
       ]

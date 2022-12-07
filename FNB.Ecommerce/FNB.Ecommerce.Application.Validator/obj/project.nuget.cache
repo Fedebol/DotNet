@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xToO6mcQr8PyDkwTcBGRU1GZU1bEqFyHDJlpk0Tj2kHPW+dAwfGTW7AO069o1Y+F6/TEkFM60I8HDg3N1VXOKQ==",
+  "dgSpecHash": "EH94OK2YsygBGf8UGgRDiDBH269SO/8/aLX9HnLLUR9MZyx+iuN4/z3fCVEaTaZCB2mLVdL3kE+OUKle7Xi0kw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Application.Validator\\FNB.Ecommerce.Application.Validator.csproj",
   "expectedPackageFiles": [

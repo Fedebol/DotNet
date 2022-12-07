@@ -142,15 +142,6 @@
           "lib/netstandard2.0/Azure.Identity.dll": {}
         }
       },
-      "Dapper/2.0.123": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/Dapper.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Dapper.dll": {}
-        }
-      },
       "FluentAssertions/6.8.0": {
         "type": "package",
         "dependencies": {
@@ -2010,21 +2001,6 @@
           "bin/placeholder/FNB.Ecommerce.Infrastructure.Interface.dll": {}
         }
       },
-      "FNB.Ecommerce.Infrastructure.Repository/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Dapper": "2.0.123",
-          "FNB.Ecommerce.Infrastructure.Data": "1.0.0",
-          "FNB.Ecommerce.Infrastructure.Interface": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/FNB.Ecommerce.Infrastructure.Repository.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/FNB.Ecommerce.Infrastructure.Repository.dll": {}
-        }
-      },
       "FNB.Ecommerce.Transversal.Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2205,24 +2181,6 @@
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml",
         "pkgicon.png"
-      ]
-    },
-    "Dapper/2.0.123": {
-      "sha512": "RDFF4rBLLmbpi6pwkY7q/M6UXHRJEOerplDGE5jwEkP/JGJnBauAClYavNKJPW1yOTWRPIyfj4is3EaJxQXILQ==",
-      "type": "package",
-      "path": "dapper/2.0.123",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Dapper.png",
-        "dapper.2.0.123.nupkg.sha512",
-        "dapper.nuspec",
-        "lib/net461/Dapper.dll",
-        "lib/net461/Dapper.xml",
-        "lib/net5.0/Dapper.dll",
-        "lib/net5.0/Dapper.xml",
-        "lib/netstandard2.0/Dapper.dll",
-        "lib/netstandard2.0/Dapper.xml"
       ]
     },
     "FluentAssertions/6.8.0": {
@@ -6808,11 +6766,6 @@
       "path": "../FNB.Ecommerce.Infraestructure.Interface/FNB.Ecommerce.Infrastructure.Interface.csproj",
       "msbuildProject": "../FNB.Ecommerce.Infraestructure.Interface/FNB.Ecommerce.Infrastructure.Interface.csproj"
     },
-    "FNB.Ecommerce.Infrastructure.Repository/1.0.0": {
-      "type": "project",
-      "path": "../FNB.Ecommerce.Infrastruture.Repository/FNB.Ecommerce.Infrastructure.Repository.csproj",
-      "msbuildProject": "../FNB.Ecommerce.Infrastruture.Repository/FNB.Ecommerce.Infrastructure.Repository.csproj"
-    },
     "FNB.Ecommerce.Transversal.Common/1.0.0": {
       "type": "project",
       "path": "../FNB.Ecommerce.Transversal.Common/FNB.Ecommerce.Transversal.Common.csproj",
@@ -6837,7 +6790,7 @@
       "AspNetCore.HealthChecks.UI.InMemory.Storage >= 6.0.5",
       "AutoMapper >= 12.0.0",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.0",
-      "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infrastructure.Repository\\FNB.Ecommerce.Infrastructure.Repository.csproj",
+      "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infraestructure.Repository\\FNB.Ecommerce.Infrastructure.Repository.csproj",
       "FNB.Ecommerce.Application.DTO >= 1.0.0",
       "FNB.Ecommerce.Application.Interface >= 1.0.0",
       "FNB.Ecommerce.Application.Main >= 1.0.0",
@@ -6847,7 +6800,6 @@
       "FNB.Ecommerce.Domain.Interface >= 1.0.0",
       "FNB.Ecommerce.Infrastructure.Data >= 1.0.0",
       "FNB.Ecommerce.Infrastructure.Interface >= 1.0.0",
-      "FNB.Ecommerce.Infrastructure.Repository >= 1.0.0",
       "FNB.Ecommerce.Transversal.Common >= 1.0.0",
       "FNB.Ecommerce.Transversal.Logging >= 1.0.0",
       "FNB.Ecommerce.Transversal.Mapper >= 1.0.0",
@@ -6927,11 +6879,8 @@
             "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infraestructure.Interface\\FNB.Ecommerce.Infrastructure.Interface.csproj": {
               "projectPath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infraestructure.Interface\\FNB.Ecommerce.Infrastructure.Interface.csproj"
             },
-            "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infrastructure.Repository\\FNB.Ecommerce.Infrastructure.Repository.csproj": {
-              "projectPath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infrastructure.Repository\\FNB.Ecommerce.Infrastructure.Repository.csproj"
-            },
-            "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infrastruture.Repository\\FNB.Ecommerce.Infrastructure.Repository.csproj": {
-              "projectPath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infrastruture.Repository\\FNB.Ecommerce.Infrastructure.Repository.csproj"
+            "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infraestructure.Repository\\FNB.Ecommerce.Infrastructure.Repository.csproj": {
+              "projectPath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infraestructure.Repository\\FNB.Ecommerce.Infrastructure.Repository.csproj"
             },
             "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Transversal.Common\\FNB.Ecommerce.Transversal.Common.csproj": {
               "projectPath": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Transversal.Common\\FNB.Ecommerce.Transversal.Common.csproj"
@@ -7059,8 +7008,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "No se encuentra el proyecto \"C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infrastructure.Repository\\FNB.Ecommerce.Infrastructure.Repository.csproj\". Compruebe que la referencia al proyecto sea válida y que exista el archivo de proyecto.",
-      "libraryId": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infrastructure.Repository\\FNB.Ecommerce.Infrastructure.Repository.csproj",
+      "message": "No se encuentra el proyecto \"C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infraestructure.Repository\\FNB.Ecommerce.Infrastructure.Repository.csproj\". Compruebe que la referencia al proyecto sea válida y que exista el archivo de proyecto.",
+      "libraryId": "C:\\Users\\Fede\\dotnet\\microservice\\FNB.Ecommerce\\FNB.Ecommerce.Infraestructure.Repository\\FNB.Ecommerce.Infrastructure.Repository.csproj",
       "targetGraphs": [
         "net6.0"
       ]

@@ -1,0 +1,15 @@
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Application.Validator\bin\Debug\net6.0\FNB.Ecommerce.Application.Validator.deps.json
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Application.Validator\bin\Debug\net6.0\FNB.Ecommerce.Application.Validator.dll
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Application.Validator\bin\Debug\net6.0\FNB.Ecommerce.Application.Validator.pdb
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Application.Validator\bin\Debug\net6.0\FNB.Ecommerce.Application.DTO.dll
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Application.Validator\bin\Debug\net6.0\FNB.Ecommerce.Application.DTO.pdb
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Application.Validator\obj\Debug\net6.0\FNB.Ecommerce.Application.Validator.csproj.AssemblyReference.cache
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Application.Validator\obj\Debug\net6.0\FNB.Ecommerce.Application.Validator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Application.Validator\obj\Debug\net6.0\FNB.Ecommerce.Application.Validator.AssemblyInfoInputs.cache
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Application.Validator\obj\Debug\net6.0\FNB.Ecommerce.Application.Validator.AssemblyInfo.cs
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Application.Validator\obj\Debug\net6.0\FNB.Ecommerce.Application.Validator.csproj.CoreCompileInputs.cache
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Application.Validator\obj\Debug\net6.0\FNB.Ecommerce.Application.Validator.csproj.CopyComplete
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Application.Validator\obj\Debug\net6.0\FNB.Ecommerce.Application.Validator.dll
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Application.Validator\obj\Debug\net6.0\refint\FNB.Ecommerce.Application.Validator.dll
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Application.Validator\obj\Debug\net6.0\FNB.Ecommerce.Application.Validator.pdb
+C:\Users\Fede\dotnet\microservice\FNB.Ecommerce\FNB.Ecommerce.Application.Validator\obj\Debug\net6.0\ref\FNB.Ecommerce.Application.Validator.dll
